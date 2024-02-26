@@ -32,7 +32,7 @@ It will be better if you fork the base repository, so that you can pull in lates
    ```bash
    git clone https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate.git
    ```
-  ```bash
+  ```
   npm install
   ```
 
@@ -41,4 +41,4 @@ It will be better if you fork the base repository, so that you can pull in lates
 .. toctree::
 
    usage
-   api
+   FAQs
