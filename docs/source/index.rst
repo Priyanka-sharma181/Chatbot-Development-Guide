@@ -1,6 +1,3 @@
-Chatbot Development Guide
-===================================
-
 Chatbot Starter Kit
 ====================
 
@@ -34,6 +31,10 @@ It will be better if you fork the base repository, so that you can pull in lates
 2. Run the following command to clone the Chatbot Starter Kit repository:
    ```bash
    git clone https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate.git
+   ```
+  ```bash
+  npm install
+  ```
 
 --------
 
