@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
+project = 'Chatbot-Development-Guide'
 copyright = '2021, Graziella'
-author = 'Graziella'
+author = 'Madgical'
 
 release = '0.1'
 version = '0.1.0'
