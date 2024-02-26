@@ -18,7 +18,9 @@ Frequently Asked Questions (FAQs)
      - Network Load Balancer (NLB) for even traffic distribution.
      - Application Load Balancer (ALB) for advanced routing, SSL termination, and content-based routing.
 
-4. **How should we scale Vector Database Infrastructure?**
+How should we scale Vector Database Infrastructure?
+---------------------
+
    - Assess growth patterns and scaling needs.
    - Implement horizontal scaling by adding more nodes or vertical scaling by enhancing existing nodes.
 
