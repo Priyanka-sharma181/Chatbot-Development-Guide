@@ -1,3 +1,4 @@
+
 Frequently Asked Questions (FAQs)
 ==================================
 
@@ -21,10 +22,13 @@ Frequently Asked Questions (FAQs)
    - Assess growth patterns and scaling needs.
    - Implement horizontal scaling by adding more nodes or vertical scaling by enhancing existing nodes.
 
-5. **Should we use a common GenAI module for all Chatbots?**
+Should we use a common GenAI module for all Chatbots?
+---------------------
+
    - Evaluate the benefits, considering performance, customization, and maintenance implications.
 
-6. **How to manage infrastructure?**
+How to manage infrastructure?
+-------------------
    - Implement version control for infrastructure-as-code scripts.
    - Ensure proper documentation for onboarding and troubleshooting.
 
@@ -38,6 +42,8 @@ Frequently Asked Questions (FAQs)
 9. **How to identify performance bottlenecks?**
    - Conduct regular performance testing.
    - Utilize profiling tools and metrics to pinpoint areas of improvement.
+
+
 
 .. autosummary::
    :toctree: generated
