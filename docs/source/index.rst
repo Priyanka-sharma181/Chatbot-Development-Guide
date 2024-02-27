@@ -1,15 +1,9 @@
 Chatbot Starter Kit
 ====================
 
-Introduction
-------------
+The Chatbot Starter Kit is a carefully designed collection of resources that forms the foundation for creating impressive chatbot applications On SwiftChat platform. It includes essential tools, templates, and best practices, making it an excellent starting point for your chatbot development journey.
 
-In this comprehensive guide, we introduce you to our Chatbot Starter Kit, a resource designed to empower developers in building robust chatbot applications. Whether you are just starting your journey in chatbot development or are an experienced developer seeking an efficient solution, this document is your go-to resource for mastering the use of our starter kit.
-
-What is the Chatbot Starter Kit?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-The Chatbot Starter Kit is a meticulously crafted repository that serves as the backbone for creating powerful chatbot applications. This kit provides essential tools, templates, and best practices, making it an ideal starting point for your chatbot development endeavors.
+Here, we present our Chatbot Starter Kit, a resource designed to help developers build strong chatbot applications. Whether you're new to chatbot development or an experienced developer looking for an effective solution, this guide is your key to mastering our starter kit.
 
 Installation
 ------------
