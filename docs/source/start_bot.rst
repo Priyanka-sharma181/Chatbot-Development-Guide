@@ -10,9 +10,18 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 
 ### Steps:
 1. Open `SwiftChat APIs <https://documenter.getpostman.com/view/20587790/UyrGCuhH#intro>`_
-2. Click on **Run In Postman**
+2. Click on **Run In Postman**. On clicking run in postman button, it will the show you two options **1. Postman for web** and **2. Postman for ubuntu**.
 .. image:: run_in_postman.jpg
    :alt: Deployment Structure
    :width: 300
    :height: 400
    :align: center
+
+3. Click on **Postman for web**. Selecting this option will redirect you to the page where you have to select your postman account. Select an account and continue with login procedure.
+4. On completing the login procedure, it will show you this page. Here you have to select a collection where SwiftChat APIs will be saved
+.. image:: collection.png
+   :alt: Deployment Structure
+   :width: 300
+   :height: 400
+   :align: center
+
