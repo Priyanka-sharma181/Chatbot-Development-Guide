@@ -12,57 +12,56 @@ Deployment Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. image:: image.png
    :alt: Alternative text describing the image
-   :width: 400
-   :height: 300
+   :width: 500
+   :height: 500
    :align: center
 
-   
+
 Chatbot Backend
 ----------------
 
-The Chatbot Backend is the primary application that handles user interactions with the Swiftchat Platform. Its major responsibilities include:
+The Chatbot Backend serves as the core application responsible for managing user interactions on the Swiftchat Platform. Its key responsibilities include:
 
-- Handling logic for various use cases
-- Calling Swiftchat APIs to interact with users
-- Utilizing NLP Backend services for processing user queries in natural language.
-- Managing user preference data, chat history
+- Implementing logic for various use cases
+- Utilizing Swiftchat APIs to engage with users
+- Leveraging NLP Backend services for natural language query processing
+- Managing user preferences and chat history
 
-This backend is sufficient for Rule-Based bots where no natural language processing is required.
+This backend suffices for Rule-Based bots where natural language processing is unnecessary.
 
 NLP Backend Services
 ---------------------
 
-This module handles natural language queries using generative AI technologies such as OpenAI or open source LLMs. It should handle the following typical services:
+This module handles natural language queries using generative AI technologies such as OpenAI or open-source LLMs. Its typical services include:
 
-- Ingesting and managing knowledge into the Vector database
-- Generating answers for queries asked in natural language using LLM services such as OpenAI or other LLMs
-- Caching results to optimize LLM service cost
+- Ingesting and managing knowledge within the Vector database
+- Generating responses to queries posed in natural language using LLM services like OpenAI
+- Caching results to optimize LLM service costs
 
 Vector Database
 ---------------
 
-The Vector Database stores text embeddings (vectors) that can be retrieved based on semantic similarity. Utilize the Vector database to store:
+The Vector Database stores text embeddings (vectors) retrievable based on semantic similarity. It is used to store:
 
-- Documents such as PDFs, text files, text strings, etc., as knowledge on which your bot will answer.
+- Documents such as PDFs, text files, and strings, serving as knowledge for bot responses
 - Cache results from OpenAI or other LLM services
 
 Logging, Health Check, Data Analytics
 --------------------------------------
 
-Using AWS CloudWatch, you can monitor the health of your infrastructure, including server logs, resource utilization, etc.
+AWS CloudWatch facilitates monitoring infrastructure health, including server logs and resource utilization.
 
-Set up an Alarm service to receive alerts for unprecedented issues. Typical things to monitor include:
+An Alarm service can be set up to receive alerts for unexpected issues. Key metrics to monitor include:
 
 - EC2 Instances Utilization
-- Number of Requests
+- Request Counts
 
 Todos
 ~~~~~
 
 - Migrate from RDS to DynamoDB
-- Add Gateway endpoint (to reduce latency)
+- Add a Gateway endpoint to reduce latency
 - Migrate from NLB to ALB
 - Integrate Bots (Ramayan and BG Bots)
 - Implement General AI (Gen AI) for Ramayan
 - Implement Weaviae
-
