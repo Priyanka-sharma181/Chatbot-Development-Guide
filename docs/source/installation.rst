@@ -9,11 +9,14 @@ Prior to proceeding, ensure that the following software components are installed
 - Git
 
 **Fork the Repository:**
+
 It is advisable to fork the base repository, facilitating seamless integration of the latest upgrades and features when necessary.
-1. Navigate to the Chatbot Starter Kit repository on GitHub: [`Chatbot Starter Kit Repository`](https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate).
+
+1. Navigate to the Chatbot Starter Kit repository on GitHub: `Chatbot Starter Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate>`_.
 2. Click the "Fork" button located in the upper right corner of the repository page, and optionally rename the repository according to your preference. A recommended naming convention is `<application name>-swift-chatbot`. This action will generate a duplicate of the repository under your GitHub account.
 
 **Clone the Repository:**
+
 1. Access your terminal or command prompt.
 2. Execute the subsequent command to clone the Chatbot Starter Kit repository:
    ```bash
