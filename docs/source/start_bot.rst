@@ -9,7 +9,7 @@ The SwiftChat APIs act as the conduit between your chatbot and yourself, process
 
 You can employ any tool or platform to interact with the SwiftChat APIs. In this instance, we'll demonstrate using **Postman**.
 
-Steps:
+Steps
 ^^^^^^^^^^
 
 1. Open `SwiftChat APIs Documentation <https://documenter.getpostman.com/view/20587790/UyrGCuhH#intro>`_
@@ -43,10 +43,33 @@ Steps:
    :align: center
 
 
-6. You will receive a message **created** and status code **OK**
+6. On succYou will receive a message **created** and status code **OK**
 
 .. image:: successful_bot.png
    :alt: Deployment Structure
    :width: 1300
-   :height: 150
+   :height: 100
+   :align: center
+
+
+Creating a Bot Using the SwiftChat Dashboard
+------------------------
+You can also create bot using your SwiftChat Merchant Dashboard
+
+Steps
+1. Login to your `SwiftChat Merchant Dashboard <https://dashboard.swiftchat.ai/bots>`_.
+2. Click on **Add New Bot** button.
+
+.. image:: add_bot.png
+   :alt: Deployment Structure
+   :width: 1300
+   :height: 300
+   :align: center
+
+Clicking this button will redirect you to a page where you can input the bot details, including the phone number, bot name, and bot type. Fill these details 
+
+.. image:: bot_detail.png
+   :alt: Deployment Structure
+   :width: 1300
+   :height: 500
    :align: center
