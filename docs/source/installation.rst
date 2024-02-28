@@ -19,12 +19,10 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 - Execute the subsequent command to clone the Chatbot Starter Kit repository: ```git clone https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate.git```
 
 - Following the cloning process, proceed to install dependencies by running follow commands: 
-```bash
-cd chatbot-nestjs-boilerplate
+```1. bash cd chatbot-nestjs-boilerplate
 ```
 
-```bash 
-npm install
+```2. bash npm install
 ```
 
 Upon completing these steps, you'll be fully prepared to commence your work with the Chatbot Starter Kit.
