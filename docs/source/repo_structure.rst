@@ -10,8 +10,8 @@ Let's take a look at the organization of our Chatbot Starter Kit repository, whi
 
 - **/.env:** The `.env` file serves as a pivotal configuration file, housing environment variables vital for your chatbot application. It's utilized for defining sensitive data such as API keys, database credentials, and other configuration values that shouldn't be hardcoded in your source files. Ensuring the secure handling of this file and refraining from sharing sensitive information publicly is paramount.
 
-.. image:: structure.png
+.. image:: project_structure.png
    :alt: project_structure image
-   :width: 600
-   :height: 900
+   :width: 700
+   :height: 800
    :align: left
