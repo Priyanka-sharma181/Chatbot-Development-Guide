@@ -4,6 +4,7 @@ Installation From Source
 To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 
 1. **Prerequisites:** Prior to proceeding, ensure that the following software components are installed on your system:
+
 - `Node.js <https://nodejs.org/en>`_ and `Node Package Manager <https://docs.npmjs.com/getting-started>`_
 - `Git <https://git-scm.com/downloads>`_
 
@@ -13,6 +14,7 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 - Click the "Fork" button located in the upper right corner of the repository page, and optionally rename the repository according to your preference. A recommended naming convention is **`<application name>-swift-chatbot`**. This action will generate a duplicate of the repository under your GitHub account.
 
 3. **Clone the Repository:**
+
 - Access your terminal or command prompt.
 - Execute the subsequent command to clone the Chatbot Starter Kit repository:
 ```bash
