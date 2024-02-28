@@ -10,8 +10,13 @@ This document guides you through the development of a chatbot solution that can 
 
 Deployment Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
-![](image.png)
+.. image:: image.png
+   :alt: Alternative text describing the image
+   :width: 400
+   :height: 300
+   :align: center
 
+   
 Chatbot Backend
 ----------------
 
