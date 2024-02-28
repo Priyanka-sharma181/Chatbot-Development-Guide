@@ -12,7 +12,7 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 **Steps:**
 
 1. Open `SwiftChat APIs Documentation <https://documenter.getpostman.com/view/20587790/UyrGCuhH#intro>`_
-2. Click on **Run In Postman**. This will provide you with two options: Postman for web and Postman for ubuntu.
+2. Click on **Run In Postman**. This will provide you with two options: **Postman for web** and **Postman for ubuntu**.
 
 .. image:: run_in_postman.jpg
    :alt: Deployment Structure
