@@ -56,12 +56,3 @@ An Alarm service can be set up to receive alerts for unexpected issues. Key metr
 - EC2 Instances Utilization
 - Request Counts
 
-Todos
-~~~~~
-
-- Migrate from RDS to DynamoDB
-- Add a Gateway endpoint to reduce latency
-- Migrate from NLB to ALB
-- Integrate Bots (Ramayan and BG Bots)
-- Implement General AI (Gen AI) for Ramayan
-- Implement Weaviae
