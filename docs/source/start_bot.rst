@@ -42,8 +42,7 @@ Steps
    :height: 300
    :align: center
 
-
-6. On succYou will receive a message **created** and status code **OK**
+6. On successfully creating bot you will receive a message **created** and status code **OK**
 
 .. image:: successful_bot.png
    :alt: Deployment Structure
@@ -51,6 +50,7 @@ Steps
    :height: 100
    :align: center
 
+7. After creating bot, use the **varify API** and varify your bot. This will generate the bot ID.
 
 Creating a Bot Using the SwiftChat Dashboard
 ------------------------
@@ -62,8 +62,8 @@ Steps
 
 .. image:: add_bot.png
    :alt: Deployment Structure
-   :width: 1300
-   :height: 300
+   :width: 1000
+   :height: 100
    :align: center
 
 Clicking this button will redirect you to a page where you can input the bot details, including the phone number, bot name, and bot type. Fill these details 
