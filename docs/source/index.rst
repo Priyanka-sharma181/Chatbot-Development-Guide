@@ -12,11 +12,9 @@ SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versati
 
 
 .. toctree::
-   :caption: Getting Started
    installation.rst
 
 .. toctree::
-   :caption: usage 
    usage.rst
 
 
