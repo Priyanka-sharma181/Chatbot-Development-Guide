@@ -4,13 +4,12 @@ To begin utilizing the starter kit, you'll need to obtain a Chatbot ID. You can 
 
 Creating a Bot Using the SwiftChat API
 ------------------------
+------------------------
 The SwiftChat APIs act as the conduit between your chatbot and yourself, processing your data accordingly. 
 
 You can employ any tool or platform to interact with the SwiftChat APIs. In this instance, we'll demonstrate using **Postman**.
 
-Steps:
-------------------------
-------------------------
+**Steps:**
 
 1. Open `SwiftChat APIs Documentation <https://documenter.getpostman.com/view/20587790/UyrGCuhH#intro>`_
 2. Click on **Run In Postman**. This will provide you with two options: Postman for web and Postman for ubuntu.
@@ -18,7 +17,7 @@ Steps:
 .. image:: run_in_postman.jpg
    :alt: Deployment Structure
    :width: 1850
-   :height: 750
+   :height: 400
    :align: center
 
 3. Click on **Postman for web**. You'll be redirected to a page where you can choose your Postman account. Sign in to your account and proceed with the login process.
@@ -27,6 +26,6 @@ Steps:
 .. image:: collection.png
    :alt: Deployment Structure
    :width: 1300
-   :height: 500
+   :height: 400
    :align: center
 
