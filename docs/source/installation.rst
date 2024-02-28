@@ -4,8 +4,8 @@ Installation From Source
 To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 
 1. **Prerequisites:** Prior to proceeding, ensure that the following software components are installed on your system:
-- [Node.js](https://nodejs.org/en) and [Node Package Manager](https://docs.npmjs.com/getting-started)
-- [Git](https://git-scm.com/downloads)
+- `Node.js <https://nodejs.org/en>`_ and `Node Package Manager <https://docs.npmjs.com/getting-started>`_
+- `Git <https://git-scm.com/downloads>`_
 
 2. **Fork the Repository:** It is advisable to fork the base repository, facilitating seamless integration of the latest upgrades and features when necessary.
 
