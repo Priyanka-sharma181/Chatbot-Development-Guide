@@ -13,5 +13,5 @@ Let's take a look at the organization of our Chatbot Starter Kit repository, whi
 .. image:: structure.png
    :alt: project_structure image
    :width: 600
-   :height: 700
+   :height: 900
    :align: left
