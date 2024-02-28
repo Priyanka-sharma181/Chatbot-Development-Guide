@@ -48,5 +48,5 @@ Steps:
 .. image:: successful_bot.png
    :alt: Deployment Structure
    :width: 1300
-   :height: 50
+   :height: 150
    :align: center
