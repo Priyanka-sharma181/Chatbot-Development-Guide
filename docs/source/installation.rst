@@ -25,7 +25,3 @@ It will be better if you fork the base repository, so that you can pull in lates
 
 --------
 
-.. toctree::
-
-   usage
-   FAQs
