@@ -23,11 +23,12 @@ The **src** folder is further organized into multiple subfolders and files. Plea
    :align: left
 
 
-1. **/chat**
+- **/chat**
 
   - **chatbot.service.ts:** Manages chatbot-related functionalities such as processing user input and generating responses.
   - **chatbot.module.ts:** Defines the module for the chatbot service, organizing related components, directives, and services.
-2. **/common**
+
+- **/common**
 
   - **exception**
 
@@ -42,36 +43,44 @@ The **src** folder is further organized into multiple subfolders and files. Plea
   - **utils**
 
     - **date.service.ts:** Utility functions for working with dates.
-3. **/config**
+
+- **/config**
 
   - **database-config.service.ts:** Configures database connections and settings.
-4. **/i18n**
+
+- **/i18n**
 
   - **hi**
     - **localized-strings.ts:** Localization strings for Hindi.
 
   - **en**
     - **localized-strings.ts:** Localization strings for English.
-5. **/intent**
+
+- **/intent**
 
   - **intent.classifier.ts:** Logic for classifying user intents.
-6. **/localization**
+
+- **/localization**
 
   - **localization.service.ts:** Handles localization logic.
   - **localization.module.ts:** Module for localization-related services.
-7. **/message**
+
+- **/message**
 
   - **message.service.ts:** Manages chatbot messages.
   - **message.module.ts:** Module for message-related services.
-8. **/model**
+
+- **/model**
 
   - **user.entity.ts:** Entity definition for user data.
   - **user.module.ts:** Module for user-related functionality.
   - **query.ts:** Logic for executing database queries.
-9. **/swiftchat**
+
+- **/swiftchat**
 
   - **swiftchat.service.ts:** Service for SwiftChat-related functionality.
   - **swiftchat.module.ts:** Module for SwiftChat-related services.
-10. **app.controller.ts:** Handles application-level routes.
-11. **app.module.ts:** Main module of the application, importing various modules and components.
-12. **main.ts:** Entry point of the application, initializing and starting the server.
+
+- **app.controller.ts:** Handles application-level routes.
+- **app.module.ts:** Main module of the application, importing various modules and components.
+- **main.ts:** Entry point of the application, initializing and starting the server.
