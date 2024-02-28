@@ -14,8 +14,8 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 
 .. image:: run_in_postman.jpg
    :alt: Deployment Structure
-   :width: 1000
-   :height: 700
+   :width: 1300
+   :height: 500
    :align: center
 
 3. Click on **Postman for web**. You'll be redirected to a page where you can choose your Postman account. Sign in to your account and proceed with the login process.
@@ -23,7 +23,7 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 
 .. image:: collection.png
    :alt: Deployment Structure
-   :width: 1000
-   :height: 700
+   :width: 1300
+   :height: 500
    :align: center
 
