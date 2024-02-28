@@ -10,7 +10,7 @@ SwiftChat Platform 🚀
 SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versatile platform for building, using, and discovering chatbots. Leveraging conversational interfaces, it enables businesses, governments, and other entities to engage with consumers effectively. With its user and developer-focused components, SwiftChat offers a comprehensive solution for creating and deploying chatbots. The recent v2 release enhances discoverability, expands bot capabilities, and provides APIs for businesses, positioning SwiftChat as a pivotal tool for fostering customer-centric interactions and connection-building.
 
 .. toctree::
-   installation.rst
+   installation.md
 
 .. toctree::
    usage.rst
