@@ -20,4 +20,20 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 
 - Following the cloning process, proceed to install dependencies by running: ```npm install```
 
+
+After cloning the repository, it's essential to install the necessary dependencies. Here are the two steps to follow:
+
+1. Navigate to the cloned repository by changing your current directory:
+```
+cd chatbot-nestjs-boilerplate
+```
+
+
+2. Utilize npm to install the project dependencies:
+```
+npm install
+```
+
+Upon completing these steps, you'll be fully prepared to commence your work with the Chatbot Starter Kit.
+--------
 --------
