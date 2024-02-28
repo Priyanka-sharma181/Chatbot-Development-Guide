@@ -1,7 +1,4 @@
 
-
-Getting Started
-====================
 Installation
 ------------
 
