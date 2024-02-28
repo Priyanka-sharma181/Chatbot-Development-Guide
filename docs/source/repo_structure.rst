@@ -13,6 +13,7 @@ At present, the starter kit comprises two primary folders and one file, which ar
 
 
 The **src** folder is further organized into multiple subfolders and files. Please refer to the attached image below for a visual representation.
+
 .. image:: project_structure.png
    :alt: project_structure image
    :width: 700
