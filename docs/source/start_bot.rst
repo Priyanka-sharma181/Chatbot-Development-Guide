@@ -36,7 +36,14 @@ Steps:
 .. note::
     Make sure you have updated the API key in the environment variable
 
-You will receive a message **created** and status code **OK**
+.. image:: bot_body.png
+   :alt: Deployment Structure
+   :width: 1300
+   :height: 300
+   :align: center
+
+
+6. You will receive a message **created** and status code **OK**
 
 .. image:: successful_bot.png
    :alt: Deployment Structure
