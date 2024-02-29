@@ -51,7 +51,7 @@ sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_passwo
 4. **Update .env file:**
 To include the .env file in the cloned project root directory, you have two options:
 
-1. **Option 1**: Create the .env file directly in the project root directory:
+- **Option 1**: Create the .env file directly in the project root directory:
    
    - Navigate to the project root directory.
    - Execute the following command to create and open the .env file in the vi editor:
@@ -70,7 +70,7 @@ To include the .env file in the cloned project root directory, you have two opti
      cat .env
      ```
 
-2. **Option 2**: Use SCP to copy the .env file from your local computer to the host computer:
+- **Option 2**: Use SCP to copy the .env file from your local computer to the host computer:
 
    - Before proceeding, ensure that you are logged out from the host machine or open a different terminal window.
    - Use the following SCP command format:
@@ -91,13 +91,13 @@ These options allow you to effectively include the .env file in your project dir
 
 5. **Configure Nginx:** To configure the NginX server, follow these steps:
 
-1. Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
+- Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
    
    ```
    sudo vi /etc/nginx/sites-enabled/default
    ```
 
-2. Paste the following configuration into the file:
+- Paste the following configuration into the file:
    
    ```
    # Read up on ssl_ciphers to ensure a secure configuration.
@@ -147,6 +147,4 @@ These options allow you to effectively include the .env file in your project dir
    #}
    ```
 
-3. Save the changes and exit the editor.
-
-This configuration sets up NginX to proxy requests to the specified backend server running on `http://127.0.0.1:3000`. Adjust the settings as necessary for your specific application.
+- Save the changes and exit the editor: This configuration sets up NginX to proxy requests to the specified backend server running on `http://127.0.0.1:3000`. Adjust the settings as necessary for your specific application.
