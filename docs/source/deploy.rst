@@ -89,9 +89,7 @@ To include the .env file in the cloned project root directory, you have two opti
 These options allow you to effectively include the .env file in your project directory, providing the necessary configurations for your application.
 
 
-5. **Configure Nginx:**
-
-To configure the NginX server, follow these steps:
+5. **Configure Nginx:** To configure the NginX server, follow these steps:
 
 1. Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
    
