@@ -42,6 +42,7 @@ Steps
    :height: 300
    :align: center
 
+
 6. On successfully creating bot you will receive a message **created** and status code **OK**
 
 .. image:: successful_bot.png
@@ -50,7 +51,10 @@ Steps
    :height: 100
    :align: center
 
+
 7. After creating bot, use the **varify API** and varify your bot. This will generate the bot ID.
+
+
 
 Creating a Bot Using the SwiftChat Dashboard
 ------------------------
@@ -66,10 +70,13 @@ Steps
    :height: 100
    :align: center
 
-Clicking this button will redirect you to a page where you can input the bot details, including the phone number, bot name, and bot type. Fill these details 
+Clicking this button will redirect you to a page where you can input the bot details, including the phone number, bot name, and bot type.Enter these details and proceed for verification. Once verification is completed, the bot will be created and activated.
 
 .. image:: bot_detail.png
    :alt: Deployment Structure
    :width: 1300
    :height: 500
    :align: center
+
+
+3. Copy the bot link and save it for future reference. The link should resemble this format: **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
