@@ -6,6 +6,7 @@ Steps to deploy
 ------------------------
 
 1. **Setup EC2 Instance:** To set up an EC2 instance (if not already done or if you wish to set up a new instance) in the ap-south-1 region with Ubuntu AMI, 16 GB storage, and t2.small compute power, follow this guide: 
+
 .. toctree::
    ec2_instance.rst
 
