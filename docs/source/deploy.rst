@@ -118,3 +118,25 @@ These options allow you to effectively include the .env file in your project dir
 
 
 - **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. For example: http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user. It should return something like this: {"message":"Cannot GET /","error":"Not Found","statusCode":404}. This is expected because /user  is a POST api. You can confirm it by posting some content using Postman or curl on your system.
+  
+
+6. **Webhook url setup:** To set up a webhook on the Swift Chatbot Developer Portal after setting up your instance, follow these steps:
+
+- Log in to the Swift Chatbot Developer Portal at: [https://dashboard.swiftchat.ai/bots](https://dashboard.swiftchat.ai/bots). If you don't have the login credentials, ask your team leader to provide them.
+
+- Once logged in, you'll see a list of apps that have been created. Look for the app named "Khabri Media" and click on it by selecting the ">" icon located on the right side of the app.
+
+- In the app settings, find the section for entering the webhook URL. Enter the following URL:
+ 
+   ```
+   http://<EC2 host IP address or domain name>/user
+   ```
+
+   For example:
+   
+   ```
+   http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user
+   ```
+
+
+This webhook URL will enable communication between your Swift Chatbot application and your EC2 instance. Adjust the URL according to your instance's IP address or domain name.
