@@ -65,7 +65,7 @@ To include the .env file in the cloned project root directory, you have two opti
    - Press "ESC" to exit insert mode.
    - Type ":wq" and press Enter to save and exit the vi editor.
    - You can verify the content of the .env file by running:
-   
+
      ```
      cat .env
      ```
@@ -74,10 +74,13 @@ To include the .env file in the cloned project root directory, you have two opti
 
    - Before proceeding, ensure that you are logged out from the host machine or open a different terminal window.
    - Use the following SCP command format:
+   
      ```
      scp -i <PATH_TO_PRIVATE_KEY> <LOCAL_FILE_PATH> ec2-user@<EC2_PUBLIC_IP>:<REMOTE_PATH>
      ```
+    
      Replace:
+
      - `<PATH_TO_PRIVATE_KEY>` with the path to your private key file.
      - `<LOCAL_FILE_PATH>` with the path to the .env file on your local computer.
      - `<EC2_PUBLIC_IP>` with the public IP address of your EC2 instance.
