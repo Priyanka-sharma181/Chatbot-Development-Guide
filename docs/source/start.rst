@@ -15,7 +15,8 @@ All set up! With the bot created and deployed, it's time to start the bot. Follo
     :height: 200
     :align: center
 
-.. admonition:: Note
+
+.. admonition::
     * Update the code to implement the following functionalities:
       * When the user enters **hi**, present two buttons 🔘 to allow the user to choose their preferred language 👈.
       * Upon selecting a language button, display a message to the user confirming successful language selection 🌟.
