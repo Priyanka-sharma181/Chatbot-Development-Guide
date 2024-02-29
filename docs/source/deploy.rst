@@ -154,10 +154,9 @@ To deploy this project run
 ```
 
 
-- **Test whether your server is running:** 
-
-- Hit the host-ip address or domain name of the EC2 instance in the browser. For example:
+- **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. For example:
 http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user
-- It should return something like this:
+
+It should return something like this:
 {"message":"Cannot GET /","error":"Not Found","statusCode":404}
 This is expected because /user  is a POST api. You can confirm it by POSTing some content using Postman or curl on your system.
