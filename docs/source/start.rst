@@ -1,8 +1,7 @@
 Start Your Bot
 ====================
 
-All setup!. Now the bot has been created and deployed, so we can start the bot now. 
-Follow these basics steps:
+All set up! With the bot created and deployed, it's time to start the bot. Follow these basic steps:
 
 1. Open the cloned repository in your preferred code editor and 
 2. Navigate to **i18n** folder then navigate to the **en** and **hn** files and 
