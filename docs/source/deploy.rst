@@ -110,10 +110,11 @@ These options allow you to effectively include the .env file in your project dir
 
         #root /var/www/html;
         root /usr/share/nginx/html;
+
+        # Add index.php to the list if you are using PHP
+        index index.html index.htm index.nginx-debian.html;
+
    ```  
 
 
-- **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. For example: http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user
-It should return something like this:
-{"message":"Cannot GET /","error":"Not Found","statusCode":404}
-This is expected because /user  is a POST api. You can confirm it by POSTing some content using Postman or curl on your system.
+- **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. For example: http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user. It should return something like this: {"message":"Cannot GET /","error":"Not Found","statusCode":404}. This is expected because /user  is a POST api. You can confirm it by posting some content using Postman or curl on your system.
