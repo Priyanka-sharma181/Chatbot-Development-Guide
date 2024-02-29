@@ -25,6 +25,9 @@ sudo apt upgrade
 - Install Node.js, npm, Nginx, and PM2:
 ```
 sudo apt install -y nodejs npm nginx
+```
+
+```
 sudo npm install -g pm2
 ```
 
