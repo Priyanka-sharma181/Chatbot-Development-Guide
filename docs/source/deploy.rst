@@ -15,3 +15,7 @@ Steps to deploy
 
 2. SSH into Instance: Use the following command to SSH into the instance with the provided .pem file:
 
+```
+bash 
+ssh -i "<Your_PEM_file_name>" <Your_Host_IP_address_or_Domain_Name>
+```
