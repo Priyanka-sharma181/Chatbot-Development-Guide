@@ -99,7 +99,12 @@ These options allow you to effectively include the .env file in your project dir
 
 - Paste the following configuration into the file:
    
-   ```
+
+## Deployment
+
+To deploy this project run
+
+```bash
    # Read up on ssl_ciphers to ensure a secure configuration.
    # See: https://bugs.debian.org/765782
    #
@@ -145,7 +150,9 @@ These options allow you to effectively include the .env file in your project dir
    #location ~ /\.ht {
    #       deny all;
    #}
-   ```
+  
+```
+
 
 - **Test whether your server is running:** 
 
