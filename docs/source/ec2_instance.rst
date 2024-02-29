@@ -1,4 +1,4 @@
-Steps To Seupt EC2 Instance
+Steps To Setup EC2 Instance
 ====================
 
 To set up an EC2 instance, follow these steps:
