@@ -10,7 +10,7 @@ Follow these basics steps:
 4. Take latest pull on AWS terminal and start the machine once again.
 5. Open the bot and send **hi**. The bot should start and show you a welcome message like this.
    
-.. image:: env_file.png
+.. image:: welcome.png
     :alt: Deployment Structure
     :width: 1300
     :height: 200
