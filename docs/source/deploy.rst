@@ -122,9 +122,9 @@ These options allow you to effectively include the .env file in your project dir
 
 6. **Webhook url setup:** To set up a webhook on the Swift Chatbot Developer Portal after setting up your instance, follow these steps:
 
-- Log in to the Swift Chatbot Developer Portal at: [https://dashboard.swiftchat.ai/bots](https://dashboard.swiftchat.ai/bots). If you don't have the login credentials, ask your team leader to provide them.
+- Log in to the Swift Chatbot Dashboard Portal at: https://dashboard.swiftchat.ai/bots.
 
-- Once logged in, you'll see a list of apps that have been created. Look for the app named "Khabri Media" and click on it by selecting the ">" icon located on the right side of the app.
+- Once logged in, you'll see a list of apps that have been created. Look for the bot you created earlier in `create your chatbot <start_bot.html>`_` and click on it by selecting the ">" icon located on the right side of the app.
 
 - In the app settings, find the section for entering the webhook URL. Enter the following URL:
  
@@ -133,7 +133,7 @@ These options allow you to effectively include the .env file in your project dir
    ```
 
    For example:
-   
+
    ```
    http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user
    ```
