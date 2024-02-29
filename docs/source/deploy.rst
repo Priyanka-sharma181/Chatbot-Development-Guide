@@ -1,4 +1,4 @@
-Deployment Proceedure
+Deployment Procedure
 ====================
 To view the functioning Chatbot, you must host the NodeJS application on a remote server and configure the SwiftChatbot application portal to connect with the NodeJS application.
 
