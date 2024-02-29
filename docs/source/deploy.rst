@@ -124,7 +124,7 @@ These options allow you to effectively include the .env file in your project dir
 
 - Log in to the Swift Chatbot Dashboard Portal at: https://dashboard.swiftchat.ai/bots.
 
-- Once logged in, you'll see a list of apps that have been created. Look for the bot you created earlier in `create your chatbot <start_bot.html>`_` and click on it by selecting the ">" icon located on the right side of the app.
+- Once logged in, you'll see a list of apps that have been created. Look for the bot you created earlier in `create your chatbot <start_bot.html>`_ and click on it by selecting the ">" icon located on the right side of the app.
 
 - In the app settings, find the section for entering the webhook URL. Enter the following URL:
  
