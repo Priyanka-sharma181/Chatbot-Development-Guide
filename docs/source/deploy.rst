@@ -40,6 +40,7 @@ sudo apt install -y mysql-server
 ```
 sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mypassword';"
 ```
+
 .. note::
     If you are using AWS RDS, create a new user and grant all permissions. These credentials will be used when setting up the .env file later.
 
