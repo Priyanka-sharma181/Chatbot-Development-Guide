@@ -1,4 +1,4 @@
-Installation From Source
+Installation 
 ------------
 
 To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
