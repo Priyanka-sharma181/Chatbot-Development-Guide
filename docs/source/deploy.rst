@@ -130,6 +130,7 @@ These options allow you to effectively include the .env file in your project dir
 
 - Start nginx server: ```sudo service nginx start```
 - Start your application server:
+  
   - Go to the project root folder where repository cloned
   
    ```cd ~/khabri-meda```
@@ -158,7 +159,6 @@ To set up a webhook on the Swift Chatbot Developer Portal after setting up your 
    ```
 
    For example:
-
    ```
    http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user
    ```
