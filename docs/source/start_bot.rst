@@ -9,8 +9,7 @@ The SwiftChat APIs act as the conduit between your chatbot and yourself, process
 
 You can employ any tool or platform to interact with the SwiftChat APIs. In this instance, we'll demonstrate using **Postman**.
 
-Steps
-^^^^^^^^^^
+**Steps**
 
 1. Open `SwiftChat APIs Documentation <https://documenter.getpostman.com/view/20587790/UyrGCuhH#intro>`_
 2. Click on **Run In Postman**. This will provide you with two options: **Postman for web** and **Postman for ubuntu**.
@@ -70,7 +69,8 @@ Steps
    :height: 100
    :align: center
 
-Clicking this button will redirect you to a page where you can input the bot details, including the phone number, bot name, and bot type.Enter these details and proceed for verification. Once verification is completed, the bot will be created and activated.
+
+3. Clicking **Add New Bot** button will redirect you to a page where you can input the bot details, including the phone number, bot name, and bot type.Enter these details and proceed for verification. Once verification is completed, the bot will be created and activated.
 
 .. image:: bot_detail.png
    :alt: Deployment Structure
@@ -79,4 +79,7 @@ Clicking this button will redirect you to a page where you can input the bot det
    :align: center
 
 
-3. Copy the bot link and save it for future reference. The link should resemble this format: **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
+4. Copy the bot link and save it for future reference. The link should resemble this format: 
+
+- **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. 
+- In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
