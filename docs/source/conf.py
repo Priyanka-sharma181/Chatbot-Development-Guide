@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Chatbot-Development-Guide'
+project = 'SwiftChat-Development-Guide'
 copyright = '2021, Graziella'
 author = 'Madgical'
 
