@@ -80,6 +80,5 @@ Steps
 
 
 4. Copy the bot link and save it for future reference. The link should resemble this format: 
-
 - **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. 
 - In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
