@@ -72,6 +72,15 @@ To include the .env file in the cloned project root directory, you have two opti
      ```
      cat .env
      ```
+   - Here is an example of how the .env file appears and the credentials it contains:
+  
+    .. image:: env_file.png
+        :alt: Deployment Structure
+        :width: 1300
+        :height: 200
+        :align: center
+
+        
 
 - **Option 2**: Use SCP to copy the .env file from your local computer to the host computer:
 
@@ -92,7 +101,7 @@ To include the .env file in the cloned project root directory, you have two opti
 These options allow you to effectively include the .env file in your project directory, providing the necessary configurations for your application.
 
 
-5. **Configure Nginx:** To configure the NginX server, follow these steps:
+1. **Configure Nginx:** To configure the NginX server, follow these steps:
 
 - Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
    
@@ -143,3 +152,8 @@ These options allow you to effectively include the .env file in your project dir
 
 
 This webhook URL will enable communication between your Swift Chatbot application and your EC2 instance. Adjust the URL according to your instance's IP address or domain name.
+
+
+Start Your Bot
+====================
+All set up. Now 
