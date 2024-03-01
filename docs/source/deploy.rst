@@ -120,9 +120,6 @@ These options allow you to effectively include the .env file in your project dir
         server_name localhost;
 
         location / {
-                # First attempt to serve request as file, then
-                # as directory, then fall back to displaying a 404.
-                # try_files $uri $uri/ =404;
                 proxy_pass http://127.0.0.1:3000;
                 proxy_http_version 1.1;
                 proxy_set_header Upgrade $http_upgrade;
