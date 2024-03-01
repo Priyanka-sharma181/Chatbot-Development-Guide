@@ -111,9 +111,28 @@ These options allow you to effectively include the .env file in your project dir
 
 - Paste the following configuration into the file:
 
-   ```
-   root /usr/share/nginx/html;
-   ```  
+
+```bash
+        root /usr/share/nginx/html;
+
+        index index.html index.htm index.nginx-debian.html;
+
+        server_name localhost;
+
+        location / {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                # try_files $uri $uri/ =404;
+                proxy_pass http://127.0.0.1:3000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+        }
+
+```
+
 
 - Start nginx server: ```sudo service nginx start```
 - Start your application server:
