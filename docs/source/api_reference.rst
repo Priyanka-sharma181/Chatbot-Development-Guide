@@ -8,5 +8,14 @@ Merchant
 ------------------------
 Use this API to sign up, login, retrieve, and generate API keys for managing your merchant account on Swiftchat's merchant platform.
 
-1. Create account using ``https://v1-api.swiftchat.ai/api/merchants`` API.
-   
+1. Create account using ``https://v1-api.swiftchat.ai/api/merchants`` API. To use this API you need to provide, Name, Email, and Password in the body.
+
+.. code-block:: json
+
+    {   
+    "name": "<merchant-name>",
+    "email": "<merchant-email>",
+    "password": "<merchant-password>"
+}
+
+-----------------   
