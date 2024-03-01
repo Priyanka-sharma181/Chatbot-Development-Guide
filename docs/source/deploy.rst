@@ -183,7 +183,7 @@ To set up a webhook on the Swift Chatbot Developer Portal after setting up your 
 
 - In the app settings, find the section for entering the webhook URL. Enter the following URL:
   ``http://<EC2 host IP address or domain name>/user``
-   - For example:
+  - For example:
    
    ``http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user``
 
