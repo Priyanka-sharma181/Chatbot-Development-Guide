@@ -11,18 +11,20 @@ Steps to deploy
     Download the generated .pem file and store it securely on your local system. This file will be used for SSH access to the EC2 instance.
 
 2. **SSH into Instance:** Use the following command to SSH into the instance with the provided .pem file:
+   
    ``ssh -i "<Your_PEM_file_name>" <Your_Host_IP_address_or_Domain_Name>``
 
 3. **To set up the necessary software components, follow these steps:**
    
    - Update and upgrade the system packages:
-  
       ``sudo apt update``
+
       ``sudo apt upgrade``
 
    - Install Node.js, npm, Nginx, and PM2:
   
       ``sudo apt install -y nodejs npm nginx``
+
       ``sudo npm install -g pm2``
       
    - (Optional) Install MySQL if you prefer setting up a local MySQL instance instead of using AWS RDS:
@@ -32,6 +34,9 @@ Steps to deploy
 
 .. note::
     If you are using AWS RDS, create a new user and grant all permissions. These credentials will be used when setting up the .env file later.
+
+.. tip::
+    If the root password does not change using the command above, follow the instructions provided `here <https://stackoverflow.com/questions/42421585/default-password-of-mysql-in-ubuntu-server-16-04>`_.
 
 
 1. **Update .env file:** To include the .env file in the cloned project root directory, you have two options:
