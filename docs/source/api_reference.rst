@@ -96,6 +96,7 @@ Bot APIs serve multiple purposes, including creating, verifying, and retrieving 
 1. **Create Bot:** Want to create a new bot? Then use this Post ``https://v1-api.swiftchat.ai/api/bots`` API. Ensure to include parameters like mobile number and configuration details such as name and category.
 
 .. code-block:: json
+
     {
     "mobile": "<bot-mobile-number>",
     "configuration": {
@@ -106,3 +107,18 @@ Bot APIs serve multiple purposes, including creating, verifying, and retrieving 
 ------------------------
 
 Upon successful creation of the bot, you will receive a 201 status code along with a message **Created**.
+
+2. **Varify Bot:** This API is utilized to verify the mobile number associated with your newly created bot. To varify your bot you need to provide mobile number and the OTP that you received in the body.
+   
+   Body:
+
+   .. code-block:: json
+
+    {
+    "mobile": "<bot-mobile-number>",
+    "otp": "<otp>"
+    }
+
+    ------------------------
+
+On successfull varification you will receive the bot ID.
