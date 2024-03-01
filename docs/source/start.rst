@@ -11,7 +11,7 @@ All set up! With the bot created and deployed, it's time to start the bot. Follo
    
 .. image:: welcome.png
     :alt: Deployment Structure
-    :width: 150
+    :width: 2000
     :height: 200
     :align: center
 
