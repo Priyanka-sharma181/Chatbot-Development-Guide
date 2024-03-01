@@ -16,9 +16,12 @@ Steps to deploy
 3. **To set up the necessary software components, follow these steps:**
    
    - Update and upgrade the system packages:
+  
       ``sudo apt update``
       ``sudo apt upgrade``
+
    - Install Node.js, npm, Nginx, and PM2:
+  
       ``sudo apt install -y nodejs npm nginx``
       ``sudo npm install -g pm2``
       
