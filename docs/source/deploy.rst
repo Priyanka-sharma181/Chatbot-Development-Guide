@@ -111,19 +111,19 @@ These options allow you to effectively include the .env file in your project dir
 
 - Paste the following configuration into the file:
   
-   .. image:: /images/nginx_code.png
-        :alt: Deployment Structure
-        :width: 1000
-        :height: 500
-        :align: center
+.. code-block:: nginx
 
-.. code-block:: python
-   
-      .. image:: /images/nginx_code.png
-        :alt: Deployment Structure
-        :width: 1000
-        :height: 500
-        :align: center
+   root /usr/share/nginx/html;
+        index index.html index.htm index.nginx-debian.html;
+        server_name localhost;
+        location / {
+                proxy_pass http://127.0.0.1:3000;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection 'upgrade';
+                proxy_set_header Host $host;
+                proxy_cache_bypass $http_upgrade;
+        }
 -----------------
         
 
