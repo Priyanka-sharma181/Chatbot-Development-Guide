@@ -113,8 +113,8 @@ These options allow you to effectively include the .env file in your project dir
   
    .. image:: nginx_code.png
         :alt: Deployment Structure
-        :width: 100
-        :height: 200
+        :width: 1000
+        :height: 500
         :align: center
 
         
