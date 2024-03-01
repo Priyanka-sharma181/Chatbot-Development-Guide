@@ -57,7 +57,7 @@ Submit the required details and send the POST request. Upon successfully creatin
             }
         -----------------
 
-        Response
+    Response
 
         .. code-block:: json
             {
