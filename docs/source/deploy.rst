@@ -45,20 +45,14 @@ Steps to deploy
    
      - Navigate to the project root directory.
      - Execute the following command to create and open the .env file in the vi editor:
-
-       ```
-       vi .env
-       ```
+       ``vi .env``
 
      - Press "i" to enter insert mode.
      - Paste the contents of the .env file (you can obtain it from your local .env file or ask your team leader for it).
      - Press "ESC" to exit insert mode.
      - Type ":wq" and press Enter to save and exit the vi editor.
      - You can verify the content of the .env file by running:
-
-       ```
-       cat .env
-       ```
+       ``cat .env``
      - Here is an example of how the .env file appears and the credentials it contains:
     
       .. image:: env_file.png
@@ -72,11 +66,9 @@ Steps to deploy
      - Before proceeding, ensure that you are logged out from the host machine or open a different terminal window.
      - Use the following SCP command format:
 
-       ```
-       scp -i <PATH_TO_PRIVATE_KEY> <LOCAL_FILE_PATH> ec2-user@<EC2_PUBLIC_IP>:<REMOTE_PATH>
-       ```
+       ``scp -i <PATH_TO_PRIVATE_KEY> <LOCAL_FILE_PATH> ec2-user@<EC2_PUBLIC_IP>:<REMOTE_PATH>``
       
-       Replace:
+       **Replace:**
 
        - `<PATH_TO_PRIVATE_KEY>` with the path to your private key file.
        - `<LOCAL_FILE_PATH>` with the path to the .env file on your local computer.
@@ -89,10 +81,7 @@ These options allow you to effectively include the .env file in your project dir
 1. **Configure Nginx:** To configure the NginX server, follow these steps:
    
    - Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
-   
-   ```
-   sudo vi /etc/nginx/sites-enabled/default
-   ```
+    ``sudo vi /etc/nginx/sites-enabled/default``
 
    - Paste the following configuration into the file:
   
@@ -166,18 +155,17 @@ These options allow you to effectively include the .env file in your project dir
 -----------------
         
 
-- Start nginx server: ```sudo service nginx start```
+- Start nginx server: ``sudo service nginx start``
 - Start your application server:
   
   - Go to the project root folder where repository cloned
-  
-   ```cd ~/khabri-meda```
+    ``cd ~/khabri-meda``
 
   - Install dependencies
-   ```npm install```
+    ``npm install``
 
   - Start application server via PM2
-   ```pm2 --name <bot Name> start npm -- start```
+    ``pm2 --name <bot Name> start npm -- start``
 
 1. **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. 
    
@@ -194,15 +182,11 @@ To set up a webhook on the Swift Chatbot Developer Portal after setting up your 
 - Once logged in, you'll see a list of apps that have been created. Look for the bot you created earlier in `create your chatbot <start_bot.html>`_ and click on it by selecting the ">" icon located on the right side of the app.
 
 - In the app settings, find the section for entering the webhook URL. Enter the following URL:
- 
-   ```
-   http://<EC2 host IP address or domain name>/user
-   ```
+  ``http://<EC2 host IP address or domain name>/user``
 
    For example:
-   ```
-   http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user
-   ```
+   
+   ``http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user``
 
 
 This webhook URL will enable communication between your Swift Chatbot application and your EC2 instance. Adjust the URL according to your instance's IP address or domain name.
