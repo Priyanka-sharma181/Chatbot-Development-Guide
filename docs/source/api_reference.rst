@@ -8,7 +8,7 @@ Merchant
 ------------------------
 Want to how to create Merchant Account to access the API key. let's see how to create mechatn account:
 
-1. Sign-Up: create account using "Post" method
+1. **Sign-Up:** create account using "Post" method
    
    .. code-block:: API
     https://v1-api.swiftchat.ai/api/merchants
