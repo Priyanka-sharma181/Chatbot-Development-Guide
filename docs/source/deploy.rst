@@ -39,7 +39,7 @@ Steps to deploy
     If the root password does not change using the command above, follow the instructions provided `here <https://stackoverflow.com/questions/42421585/default-password-of-mysql-in-ubuntu-server-16-04>`_.
 
 
-1. **Update .env file:** To include the .env file in the cloned project root directory, you have two options:
+4. **Update .env file:** To include the .env file in the cloned project root directory, you have two options:
    
    - **Option 1**: Create the .env file directly in the project root directory:
    
@@ -78,7 +78,7 @@ Steps to deploy
 These options allow you to effectively include the .env file in your project directory, providing the necessary configurations for your application.
 
 
-1. **Configure Nginx:** To configure the NginX server, follow these steps:
+5. **Configure Nginx:** To configure the NginX server, follow these steps:
    
    - Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
     ``sudo vi /etc/nginx/sites-enabled/default``
@@ -164,10 +164,10 @@ These options allow you to effectively include the .env file in your project dir
   - Install dependencies
     ``npm install``
 
-  - Start application server via PM2
+  - Start application server via PM2:
     ``pm2 --name <bot Name> start npm -- start``
 
-1. **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. 
+6. **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. 
    
    - For example: http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user\n. 
    - It should return something like this: {"message":"Cannot GET /","error":"Not Found","statusCode":404}. This is expected because /user  is a POST api. You can confirm it by posting some content using Postman or curl on your system.
@@ -183,8 +183,7 @@ To set up a webhook on the Swift Chatbot Developer Portal after setting up your 
 
 - In the app settings, find the section for entering the webhook URL. Enter the following URL:
   ``http://<EC2 host IP address or domain name>/user``
-
-   For example:
+  For example:
    
    ``http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user``
 
