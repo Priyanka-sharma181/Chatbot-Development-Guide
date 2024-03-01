@@ -10,11 +10,6 @@ Want to how to create Merchant Account to access the API key. let's see how to c
 
 1. **Sign-Up:** To create an account, use the "Post" method:
    
-    .. code-block:: API
-        https://v1-api.swiftchat.ai/api/merchants
-
-------------------------
-
 ```API
 https://v1-api.swiftchat.ai/api/merchants
 ```
