@@ -21,16 +21,11 @@ Steps to deploy
    - Install Node.js, npm, Nginx, and PM2:
       ``sudo apt install -y nodejs npm nginx``
       ``sudo npm install -g pm2``
-
-- (Optional) Install MySQL if you prefer setting up a local MySQL instance instead of using AWS RDS:
-```
-sudo apt install -y mysql-server
-```
-
-- Configure the MySQL root password:
-```
-sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mypassword';
-```
+      
+   - (Optional) Install MySQL if you prefer setting up a local MySQL instance instead of using AWS RDS:
+      ``sudo apt install -y mysql-server``
+   - Configure the MySQL root password:
+      ``sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'mypassword';``
 
 .. note::
     If you are using AWS RDS, create a new user and grant all permissions. These credentials will be used when setting up the .env file later.
