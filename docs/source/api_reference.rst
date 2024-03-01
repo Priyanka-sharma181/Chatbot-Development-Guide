@@ -6,7 +6,7 @@ SwiftChat APIs helps you integrate your interactive bots with SwiftChat, so you 
 
 Merchant
 ------------------------
-Use this API to sign up, login, retrieve, and generate API keys for managing your merchant account on Swiftchat's merchant platform. 
+Use this APIs to sign up, login, retrieve, and generate API keys for managing your merchant account on Swiftchat's merchant platform. 
 
 1. Create account using Post ``https://v1-api.swiftchat.ai/api/merchants`` API. Provide the required information including Name, Email, and Password in the request body.
 
@@ -89,5 +89,20 @@ Submit the required details and send the POST request. Upon successfully creatin
         }
     -----------------
 
-Merchant
+Bots
 ------------------------
+Bot APIs serve multiple purposes, including creating, verifying, and retrieving bots. Additionally, they facilitate communication with the bot through messages, welcome banners, and more.
+
+1. **Create Bot:** Want to create a new bot? Then use this Post ``https://v1-api.swiftchat.ai/api/bots`` API. Ensure to include parameters like mobile number and configuration details such as name and category.
+
+.. code-block:: json
+    {
+    "mobile": "<bot-mobile-number>",
+    "configuration": {
+        "name": "<bot-name>",
+        "category": "<category of the bot>"
+    }
+    }
+------------------------
+
+Upon successful creation of the bot, you will receive a 201 status code along with a message **Created**.
