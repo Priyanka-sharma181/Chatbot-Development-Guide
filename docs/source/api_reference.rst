@@ -69,7 +69,7 @@ Submit the required details and send the POST request. Upon successfully creatin
             }
     -----------------
 
-    - **Generate API key:** To generate the API Key use this Post ``https://v1-api.swiftchat.ai/api/merchants/<merchant-id>/api-key/generate`` API with the merchant-id. Provide the token that generated in **varify OTP** API, in the body.
+   - **Generate API key:** To generate the API Key use this Post ``https://v1-api.swiftchat.ai/api/merchants/<merchant-id>/api-key/generate`` API with the merchant-id. Provide the token that generated in **varify OTP** API, in the body.
     
     Body:
 
