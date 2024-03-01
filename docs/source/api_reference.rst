@@ -22,9 +22,9 @@ Use this API to sign up, login, retrieve, and generate API keys for managing you
 Submit the required details and send the POST request. Upon successfully creating an account, you will receive your merchant ID.
 
 .. code-block:: json
-    
+
     {
-  "id": "0149360934334354"
+    "id": "01xxxxxxxxxxxx"
     }
 -----------------
 
