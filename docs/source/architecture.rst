@@ -1,6 +1,5 @@
 Chatbot Architecture
 =====
-
 This document guides you through the development of a chatbot solution that can be published on the Swiftchat Platform. A typical chatbot solution comprises the following components:
 
 - **Chat Interface:** Swiftchat
@@ -19,7 +18,6 @@ Deployment Architecture
 
 Chatbot Backend
 ----------------
-
 The Chatbot Backend serves as the core application responsible for managing user interactions on the Swiftchat Platform. Its key responsibilities include:
 
 - Implementing logic for various use cases
@@ -31,7 +29,6 @@ This backend suffices for Rule-Based bots where natural language processing is u
 
 NLP Backend Services
 ---------------------
-
 This module handles natural language queries using generative AI technologies such as OpenAI or open-source LLMs. Its typical services include:
 
 - Ingesting and managing knowledge within the Vector database
