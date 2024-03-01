@@ -54,12 +54,12 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 7. After creating bot, use the **varify API** and varify your bot. This will generate the bot ID.
 
 
-
 Creating a Bot Using the SwiftChat Dashboard
 ------------------------
 You can also create bot using your SwiftChat Merchant Dashboard
 
-Steps
+**Steps:**
+
 1. Login to your `SwiftChat Merchant Dashboard <https://dashboard.swiftchat.ai/bots>`_.
 2. Click on **Add New Bot** button.
 
@@ -80,6 +80,5 @@ Steps
 
 
 4. Copy the bot link and save it for future reference. The link should resemble this format: 
-
-- **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. 
-- In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
+   - **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. 
+   - In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
