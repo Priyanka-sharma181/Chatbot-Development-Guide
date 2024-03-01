@@ -111,7 +111,7 @@ These options allow you to effectively include the .env file in your project dir
 
 - Paste the following configuration into the file:
   
-   .. image:: nginx_code.png
+   .. image:: ./images/nginx_code.png
         :alt: Deployment Structure
         :width: 1000
         :height: 500
