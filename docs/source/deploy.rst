@@ -51,65 +51,62 @@ sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_passwo
     If the root password does not change using the command above, follow the instructions provided `here <https://stackoverflow.com/questions/42421585/default-password-of-mysql-in-ubuntu-server-16-04>`_.
 
 
-4. **Update .env file:**
-To include the .env file in the cloned project root directory, you have two options:
-
-- **Option 1**: Create the .env file directly in the project root directory:
+4. **Update .env file:** To include the .env file in the cloned project root directory, you have two options:
    
-   - Navigate to the project root directory.
-   - Execute the following command to create and open the .env file in the vi editor:
+   - **Option 1**: Create the .env file directly in the project root directory:
+   
+     - Navigate to the project root directory.
+     - Execute the following command to create and open the .env file in the vi editor:
 
-     ```
-     vi .env
-     ```
+       ```
+       vi .env
+       ```
 
-   - Press "i" to enter insert mode.
-   - Paste the contents of the .env file (you can obtain it from your local .env file or ask your team leader for it).
-   - Press "ESC" to exit insert mode.
-   - Type ":wq" and press Enter to save and exit the vi editor.
-   - You can verify the content of the .env file by running:
+     - Press "i" to enter insert mode.
+     - Paste the contents of the .env file (you can obtain it from your local .env file or ask your team leader for it).
+     - Press "ESC" to exit insert mode.
+     - Type ":wq" and press Enter to save and exit the vi editor.
+     - You can verify the content of the .env file by running:
 
-     ```
-     cat .env
-     ```
-   - Here is an example of how the .env file appears and the credentials it contains:
-  
-    .. image:: env_file.png
-        :alt: Deployment Structure
-        :width: 1300
-        :height: 200
-        :align: center
-
-        
-
-- **Option 2**: Use SCP to copy the .env file from your local computer to the host computer:
-
-   - Before proceeding, ensure that you are logged out from the host machine or open a different terminal window.
-   - Use the following SCP command format:
-
-     ```
-     scp -i <PATH_TO_PRIVATE_KEY> <LOCAL_FILE_PATH> ec2-user@<EC2_PUBLIC_IP>:<REMOTE_PATH>
-     ```
+       ```
+       cat .env
+       ```
+     - Here is an example of how the .env file appears and the credentials it contains:
     
-     Replace:
+      .. image:: env_file.png
+          :alt: Deployment Structure
+          :width: 1300
+          :height: 200
+          :align: center
 
-     - `<PATH_TO_PRIVATE_KEY>` with the path to your private key file.
-     - `<LOCAL_FILE_PATH>` with the path to the .env file on your local computer.
-     - `<EC2_PUBLIC_IP>` with the public IP address of your EC2 instance.
-     - `<REMOTE_PATH>` with the path on the remote EC2 instance where you want to copy the .env file.
+   - **Option 2**: Use SCP to copy the .env file from your local computer to the host computer:
+
+     - Before proceeding, ensure that you are logged out from the host machine or open a different terminal window.
+     - Use the following SCP command format:
+
+       ```
+       scp -i <PATH_TO_PRIVATE_KEY> <LOCAL_FILE_PATH> ec2-user@<EC2_PUBLIC_IP>:<REMOTE_PATH>
+       ```
+      
+       Replace:
+
+       - `<PATH_TO_PRIVATE_KEY>` with the path to your private key file.
+       - `<LOCAL_FILE_PATH>` with the path to the .env file on your local computer.
+       - `<EC2_PUBLIC_IP>` with the public IP address of your EC2 instance.
+       - `<REMOTE_PATH>` with the path on the remote EC2 instance where you want to copy the .env file.
 
 These options allow you to effectively include the .env file in your project directory, providing the necessary configurations for your application.
 
 
-5. **Configure Nginx:** To configure the NginX server, follow these steps:
-
-- Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
+1. **Configure Nginx:** To configure the NginX server, follow these steps:
+   
+   - Open the NginX configuration file located at `/etc/nginx/sites-enabled/default` using the vi editor:
    
    ```
    sudo vi /etc/nginx/sites-enabled/default
    ```
 
-- Paste the following configuration into the file:
+   - Paste the following configuration into the file:
   
 .. code-block:: nginx
 
@@ -194,7 +191,7 @@ These options allow you to effectively include the .env file in your project dir
   - Start application server via PM2
    ```pm2 --name <bot Name> start npm -- start```
 
-6. **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. 
+1. **Test whether your server is running:** Hit the host-ip address or domain name of the EC2 instance in the browser. 
    
    - For example: http://ec2-3-110-217-147.ap-south-1.compute.amazonaws.com/user\n. 
    - It should return something like this: {"message":"Cannot GET /","error":"Not Found","statusCode":404}. This is expected because /user  is a POST api. You can confirm it by posting some content using Postman or curl on your system.
