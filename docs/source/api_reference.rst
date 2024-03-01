@@ -28,4 +28,19 @@ Submit the required details and send the POST request. Upon successfully creatin
     }
 -----------------
 
-2. 
+2. To retrieve your merchant details, utilize the following GET API endpoint: ``https://v1-api.swiftchat.ai/api/merchants/<merchant-id>`` and enter your merchant ID in it..  This API provides information such as ID, name, email, email verification status, creation date, etc.
+   
+Response:
+
+   .. code-block:: json
+
+    {
+    "merchant_id": "01xxxxxxxxxxxxxx",
+    "name": "Test Merchant",
+    "email": "test.merchant@test.com",
+    "email_verified": 1,
+    "status": "ACTIVE",
+    "status_reason": null,
+    "created_at": "2022-03-17T13:00:05.000Z"
+    }
+-----------------
