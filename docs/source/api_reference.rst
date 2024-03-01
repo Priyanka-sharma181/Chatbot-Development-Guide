@@ -16,6 +16,5 @@ Use this API to sign up, login, retrieve, and generate API keys for managing you
     "name": "<merchant-name>",
     "email": "<merchant-email>",
     "password": "<merchant-password>"
-}
-
+    }
 -----------------   
