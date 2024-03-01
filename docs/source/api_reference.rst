@@ -44,3 +44,26 @@ Response:
     "created_at": "2022-03-17T13:00:05.000Z"
     }
 -----------------
+
+
+3. If you want to generate a new API key, first generate the API-OTP and then verify your email using the generated OTP.
+   
+   - Generate OTP: To verify your account, generate the OTP by sending a POST request to ``https://v1-api.swiftchat.ai/api/merchants/<merchant-id>/api-key/otp`` API endpoint with the merchant ID. This will send the OTP to your email.
+   - Varify OTP: Use this API ``https://v1-api.swiftchat.ai/api/merchants/<merchant-id>/api-key/otp/verify`` for email varification. 
+     
+        .. code-block:: json
+            {
+            "otp": "<api-key-otp>"
+            }
+        -----------------
+
+        Response
+
+        .. code-block:: json
+            {
+            "token": "Fg-MTCepsbOmYMrAKikYq"
+            }
+
+
+
+     
