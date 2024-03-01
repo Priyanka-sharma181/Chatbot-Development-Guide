@@ -114,6 +114,7 @@ These options allow you to effectively include the .env file in your project dir
 
    ```
    root /usr/share/nginx/html;
+   
    index index.html index.htm index.nginx-debian.html;
    ```
 
