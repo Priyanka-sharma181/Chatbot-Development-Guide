@@ -110,14 +110,14 @@ These options allow you to effectively include the .env file in your project dir
    ```
 
 - Paste the following configuration into the file:
+  
+   .. image:: nginx_code.png
+        :alt: Deployment Structure
+        :width: 100
+        :height: 200
+        :align: center
 
-
-   ```
-   root /usr/share/nginx/html;
-   
-   index index.html index.htm index.nginx-debian.html;
-   ```
-
+        
 
 - Start nginx server: ```sudo service nginx start```
 - Start your application server:
