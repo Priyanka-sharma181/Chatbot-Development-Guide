@@ -224,6 +224,5 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
     {
     "shareable_link": "https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0295758414350769&apn=ai.convegenius.app"
     }
-
 ------------------------
    
