@@ -40,8 +40,9 @@ Read more about these key features in detail: `here <https://swiftchat.ai/swiftc
 
 ------------------------
 
-What purpose does this document serve?
+What you will learn?
 ====================
+In this documentation, you'll explore the SwiftChat platform and its procedures, covering topics like the login process, bot creation, API key generation, and bot development and deployment. Additionally, you'll discover our Starter Kit for initiating your first basic bot. Furthermore, you'll delve into SwiftChat APIs and more.
 
 Chatbot Starter Kit 🚀
 ====================
