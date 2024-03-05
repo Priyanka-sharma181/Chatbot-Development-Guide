@@ -174,7 +174,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
 
    .. image:: patch_config.png
         :alt: Deployment Structure
-        :width: 1300
+        :width: 2000
         :height: 400
         :align: center
 
