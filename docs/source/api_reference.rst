@@ -184,8 +184,8 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
       
    .. image:: ./images/update_photo.png
         :alt: Deployment Structure
-        :width: 1300
-        :height: 400
+        :width: 1700
+        :height: 200
         :align: center
 
 ------------------------
