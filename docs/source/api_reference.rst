@@ -209,6 +209,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
    Response:
 
    .. code-block:: json
+    
     {
     "webhook_url": "https://test.com/webhook"
     }
