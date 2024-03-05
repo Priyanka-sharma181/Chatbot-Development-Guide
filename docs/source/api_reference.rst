@@ -155,3 +155,13 @@ On successfull varification you will receive the bot ID.
     }
    
 ------------------------    
+
+4. To collect all the information about a specific bot, utilize the following API: ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration``, inserting your bot's id. This will help you get information such has bot name, id, welcome message, buttons, photo, banner and more.
+   
+   Response
+
+   .. image:: get_config_bot.jpg
+   :alt: Deployment Structure
+   :width: 1300
+   :height: 400
+   :align: center
