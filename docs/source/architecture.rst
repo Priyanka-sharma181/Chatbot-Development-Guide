@@ -9,7 +9,7 @@ This document guides you through the development of a chatbot solution that can 
 
 Deployment Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
-.. image:: image.png
+.. image:: ../images/deployement_images/image.png
    :alt: Deployment Structure
    :width: 500
    :height: 500

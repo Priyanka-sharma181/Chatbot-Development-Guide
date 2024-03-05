@@ -16,7 +16,7 @@ Overview of src folder
 ------------------------
 The **src** folder is further organized into multiple subfolders and files. Please refer to the attached image below for a visual representation.
 
-.. image:: project_structure.png
+.. image:: ../images/other_images/project_structure.png
    :alt: project_structure image
    :width: 700
    :height: 700

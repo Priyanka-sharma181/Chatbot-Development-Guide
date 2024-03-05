@@ -160,7 +160,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
    
    Response
 
-   .. image:: get_config_bot.jpg
+   .. image:: ../images/api_reference_images/get_config_bot.jpg
         :alt: Deployment Structure
         :width: 1300
         :height: 400
@@ -172,7 +172,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
    
    Let's say for example if you want to update the description of the bot, then follow below image:
 
-   .. image:: patch_config.png
+   .. image:: ../images/api_reference_images/patch_config.png
         :alt: Deployment Structure
         :width: 2000
         :height: 400

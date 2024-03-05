@@ -55,7 +55,7 @@ Steps to deploy
        ``cat .env``
      - Here is an example of how the .env file appears and the credentials it contains:
     
-      .. image:: env_file.png
+      .. image:: ../images/deployement_images/env_file.png
           :alt: Deployment Structure
           :width: 1300
           :height: 200
