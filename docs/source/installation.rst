@@ -1,5 +1,21 @@
-Installation 
+Registration on Swiftchat
 ------------
+
+Registration on SwiftChat is a simple process that allows users to create an account and access the platform's features. For registration follow these steps:
+
+1. Open the APP or website of `SwiftChat <https://web.convegenius.ai/>`_.
+2. On opening the App or website you will get the page to enter your phone number
+   
+   .. image:: ../images/installation_images/login.png
+      :alt: login page 
+      :width: 2500
+      :height: 500
+      :align: center
+      
+   
+
+Obtaining API keys and credentials.
+Installation of necessary tools and SDKs.
 
 To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 

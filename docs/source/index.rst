@@ -57,7 +57,7 @@ Here, we present our Chatbot Starter Kit, a resource designed to help developers
 .. only:: not index
 
    .. toctree::
-      :caption: Installation
+      :caption: Getting Started
       :hidden:
 
       installation.rst
