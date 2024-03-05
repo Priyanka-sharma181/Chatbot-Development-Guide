@@ -60,6 +60,8 @@ Here, we present our Chatbot Starter Kit, a resource designed to help developers
       :caption: Getting Started
       :hidden:
 
+      swiftchat_registration.rst
+      get_api_key.rst
       installation.rst
    
    .. toctree::
