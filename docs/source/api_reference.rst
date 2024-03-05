@@ -119,6 +119,39 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
     "otp": "<otp>"
     }
 
-    ------------------------
+------------------------
 
 On successfull varification you will receive the bot ID.
+
+    Response:
+
+    .. code-block:: json
+
+        {
+        "id": "0295758414350769"
+        }
+    
+------------------------    
+
+3. If you want to gather information about all the bots linked to your merchant-id, you can use the Get API endpoint: ``https://v1-api.swiftchat.ai/api/merchants/<merchant-id>/bots``. Simply provide your merchant-id along with the API. This API will retrieve details such as the name, id, and phone number of all your bots.
+   
+   Response:
+
+   .. code-block:: json
+
+    {
+    "data": [
+    {
+      "name": "Test Bot",
+      "bot_id": "0295758414350769",
+      "mobile": "+91XXXXXXXXXX"
+    },
+    {
+      "name": "Test Bot 2",
+      "bot_id": "0221741349325852",
+      "mobile": "+91XXXXXXXXXX"
+    }
+    ]
+    }
+   
+------------------------    
