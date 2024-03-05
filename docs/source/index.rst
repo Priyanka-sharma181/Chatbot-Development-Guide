@@ -37,6 +37,12 @@ The SwiftChat provides multiple fratures that makes it easier and compatible to 
 
 Read more about these key features in detail: `here <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-end-users/>`_
 
+
+------------------------
+
+What purpose does this document serve?
+====================
+
 Chatbot Starter Kit 🚀
 ====================
 
