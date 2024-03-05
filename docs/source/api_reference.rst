@@ -108,7 +108,7 @@ Bot APIs serve multiple purposes, including creating, verifying, and retrieving 
 
 Upon successful creation of the bot, you will receive a 201 status code along with a message **Created**.
 
-1. ``https://v1-api.swiftchat.ai/api/bots/verify`` This **POST** API is utilized to verify the mobile number associated with your newly created bot. To varify your bot you need to provide mobile number and the OTP that you received in the body.
+2. ``https://v1-api.swiftchat.ai/api/bots/verify`` This **POST** API is utilized to verify the mobile number associated with your newly created bot. To varify your bot you need to provide mobile number and the OTP that you received in the body.
    
    Body:
 
@@ -121,7 +121,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
 
 ------------------------
 
-On successfull varification you will receive the bot ID.
+    On successfull varification you will receive the bot ID.
 
     Response:
 
@@ -166,4 +166,17 @@ On successfull varification you will receive the bot ID.
         :height: 400
         :align: center
 
-5. 
+------------------------
+
+5. If you need to modify any configuration settings for a bot, you can do so by using the **PATCH** method with the API endpoint: ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration``.
+   
+    Let's say for example if you want to update the description of the bot, then follow below image:
+
+    .. image:: patch_config.jpg
+        :alt: Deployment Structure
+        :width: 1300
+        :height: 400
+        :align: center
+
+------------------------
+   
