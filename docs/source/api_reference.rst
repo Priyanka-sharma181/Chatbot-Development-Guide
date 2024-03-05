@@ -182,7 +182,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
    
 1. Update the bot icon photo using this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration/photo`` API with the bot-id. Provide the image type and image URL/file in form data format, you can use a key-value pair structure. You will be get the message "Ok" on successful updation.
       
-   .. image:: /images/update_photo.png
+   .. image:: ../images/update_photo.png
         :alt: Deployment Structure
         :width: 1700
         :height: 200
