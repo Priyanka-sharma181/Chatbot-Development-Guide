@@ -168,11 +168,11 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
 
 ------------------------
 
-5. If you need to modify any configuration settings for a bot, you can do so by using the **PATCH** method with the API endpoint: ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration``.
+5. If you need to modify configuration settings for a bot such as  name, description, category, and persistent menu, you can do so by using the **PATCH** method with the API endpoint: ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration``.
    
     Let's say for example if you want to update the description of the bot, then follow below image:
 
-    .. image:: patch_config.jpg
+    .. image:: patch_config.png
         :alt: Deployment Structure
         :width: 1300
         :height: 400
@@ -180,3 +180,12 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
 
 ------------------------
    
+6. Update the bot icon photo using this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration/photo`` API with the bot-id. Provide the image type and image URL/file in form data format, you can use a key-value pair structure. You will be get the message "Ok" on successful updation.
+      
+    .. image:: update_photo.png
+        :alt: Deployment Structure
+        :width: 1300
+        :height: 400
+        :align: center
+
+------------------------
