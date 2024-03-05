@@ -55,13 +55,17 @@ Here, we present our Chatbot Starter Kit, a resource designed to help developers
 .. toctree::
    :hidden:
    
-   installation.rst
-   repo_structure.rst
-   architecture.rst
-   start_bot.rst
-   deploy.rst
-   start.rst
-   api_reference.rst
+  .. caption:: Installation
+      :numbered:
+   
+      installation.rst
+
+   .. repo_structure.rst
+   .. architecture.rst
+   .. start_bot.rst
+   .. deploy.rst
+   .. start.rst
+   .. api_reference.rst
 
 
    
