@@ -1,5 +1,14 @@
-Installation of necessary tools.
+Installation of necessary tools
+====================
+This document will guide you for the installation process of necessary tools and SDKs also, here we will discuss about the chatbot starter kit. 
+
+Chatbot Starter Kit 🚀
 ------------
+
+The Chatbot Starter Kit is a carefully designed collection of resources that forms the foundation for creating impressive chatbot applications On `SwiftChat platform <https://convegenius.com/>`_. It includes essential tools, templates, and best practices, making it an excellent starting point for your chatbot development journey.
+
+Here, we present our Chatbot Starter Kit, a resource designed to help developers build strong chatbot applications. Whether you're new to chatbot development or an experienced developer looking for an effective solution, this guide is your key to mastering our starter kit.
+
 
 To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
 
@@ -19,7 +28,7 @@ To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
    - Execute the subsequent command to clone the forked Chatbot Starter Kit repository: 
     ``git clone <Forked Repository Code>``
 
-   - Following the cloning process, proceed to install dependencies by running follow commands: 
+   - Following the cloning process, proceed to install dependencies by running following commands: 
   
         1.  ``cd chatbot-nestjs-boilerplate``
         2.  ``npm install``

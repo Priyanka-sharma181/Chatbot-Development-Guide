@@ -65,7 +65,7 @@ Here, we present our Chatbot Starter Kit, a resource designed to help developers
       installation.rst
    
    .. toctree::
-      :caption: Repo Structure
+      :caption: Bot Development Basics
       :hidden:
 
       repo_structure.rst
