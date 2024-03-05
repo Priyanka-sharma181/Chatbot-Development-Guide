@@ -44,7 +44,7 @@ What you will learn?
 ====================
 In this documentation, you'll explore the SwiftChat platform and its procedures, covering topics like the login process, bot creation, API key generation, and bot development and deployment. Additionally, you'll discover our Starter Kit for initiating your first basic bot. Furthermore, you'll delve into SwiftChat APIs and more.
 
-Chatbot Starter Kit 
+Chatbot Starter Kit 🚀
 ====================
 
 The Chatbot Starter Kit is a carefully designed collection of resources that forms the foundation for creating impressive chatbot applications On `SwiftChat platform <https://convegenius.com/>`_. It includes essential tools, templates, and best practices, making it an excellent starting point for your chatbot development journey.
@@ -53,6 +53,15 @@ Here, we present our Chatbot Starter Kit, a resource designed to help developers
 
 
 .. toctree::
-   :caption:: Installation
+   :hidden:
+   
+   installation.rst
+   repo_structure.rst
+   architecture.rst
+   start_bot.rst
+   deploy.rst
+   start.rst
+   api_reference.rst
 
-      installation.rst
+
+   
