@@ -52,6 +52,8 @@ The Chatbot Starter Kit is a carefully designed collection of resources that for
 Here, we present our Chatbot Starter Kit, a resource designed to help developers build strong chatbot applications. Whether you're new to chatbot development or an experienced developer looking for an effective solution, this guide is your key to mastering our starter kit.
 
 
+
+
 .. only:: not index
 
    .. toctree::
@@ -59,4 +61,40 @@ Here, we present our Chatbot Starter Kit, a resource designed to help developers
       :hidden:
 
       installation.rst
+   
+   .. toctree::
+      :caption: Repo Structure
+      :hidden:
 
+      repo_structure.rst
+
+   .. toctree::
+      :caption: Repo Structure
+      :hidden:
+
+      architecture.rst
+
+   .. toctree::
+      :caption: Repo Structure
+      :hidden:
+
+      start_bot.rst
+   
+   .. toctree::
+      :caption: Repo Structure
+      :hidden:
+
+      deploy.rst
+   
+
+   .. toctree::
+      :caption: Repo Structure
+      :hidden:
+
+      start.rst
+   
+   .. toctree::
+      :caption: Repo Structure
+      :hidden:
+
+      api_reference.rst
