@@ -188,7 +188,7 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
 
     2. The maximum size limit: 1 MB
       
-   .. image:: ../images/update_photo.png
+   .. image:: ../images/api_reference_images/update_photo.png
         :alt: Deployment Structure
         :width: 1700
         :height: 200
@@ -196,11 +196,34 @@ Upon successful creation of the bot, you will receive a 201 status code along wi
 
 ------------------------
 
-7. You can update the welcome banner similarly as you updated the bot icon photo. For this use this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration/welcome-banner`` API with the bot-id. Provide image type and url in form data format.
+7. You can update the welcome banner similarly as you updated the bot icon photo. For this use this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/configuration/welcome-banner`` API with the bot-id. Provide image type and url in form data format. You will be get the message "Ok" on successful updation.
    
-    .. note::
+   .. note::
         
        1. The supported file formats are PNG and JPEG.
 
        2. The maximum size limit: 1 MB
-      
+
+8. Get your Webhook Url associated with the bot-id using this **GET** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`` API with your bot-id.
+   
+   Response:
+
+   .. code-block:: json
+    {
+    "webhook_url": "https://test.com/webhook"
+    }
+
+------------------------
+
+9. Get the shareable link of your bot and use it for different purposes, using this **GET** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/shareable-link`` API.
+   
+   Response:
+
+   .. code-block:: json
+
+    {
+    "shareable_link": "https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0295758414350769&apn=ai.convegenius.app"
+    }
+
+------------------------
+   
