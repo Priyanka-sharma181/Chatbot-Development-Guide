@@ -22,8 +22,17 @@ Registration on SwiftChat is a simple process that allows users to create an acc
 
 4. Once OTP verification is completed, you'll be prompted to input additional details such as your name, state, preferred language, and more to finalize the registration process.
    
+Following these steps will complete the registration process.
+
 
 Obtaining API keys and credentials.
+------------
+In order to get the API key and to access the other features of swiftchat platform, you need to have a merchant account. 
+
+.. tip::  Merchant account
+   
+   To create your merchant account use this Post `API <https://documenter.getpostman.com/view/20587790/UyrGCuhH#57d73550-1c15-41a5-ac7e-0ba20b60b3e4>`_
+
 Installation of necessary tools and SDKs.
 
 To initiate the setup of the Chatbot Starter Kit, adhere to these steps:
