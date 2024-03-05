@@ -6,6 +6,10 @@ Why develope bots on SwiftChat Platform?
 ====================
 The SwiftChat platform provides developers and businesses with a comprehensive API and diverse components to build and host chatbots. Whether building from scratch or integrating existing bots, businesses can enhance their conversational experiences using interactive components. Building and hosting bots on SwiftChat is streamlined, with detailed API documentation available for guidance.
 
+Benefits of developing bots on SwiftChat
+------------------------
+
+
 Key Features
 ------------------------
 
