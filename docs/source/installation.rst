@@ -34,7 +34,7 @@ In order to get the API key and to access the other features of swiftchat platfo
    - Create your merchant account using this Post `API <https://documenter.getpostman.com/view/20587790/UyrGCuhH#57d73550-1c15-41a5-ac7e-0ba20b60b3e4>`_ 
    - Complete business KYC and email varification
 
-How to get your API key
+How to get API key
 ~~~~~~~~~~~~~~~~~~
 
 - Open the `SwiftChat Merchant Dashboar <https://dashboard.swiftchat.ai/>`_
@@ -43,9 +43,9 @@ How to get your API key
   
    .. image:: ../images/installation_images/profile_settings.png
       :alt: login page 
-      :width: 2500
+      :width: 1000
       :height: 200
-      :align: center
+      :align: left
 
 
 Installation of necessary tools.
