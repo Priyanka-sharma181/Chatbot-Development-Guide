@@ -161,7 +161,9 @@ On successfull varification you will receive the bot ID.
    Response
 
    .. image:: get_config_bot.jpg
-   :alt: Deployment Structure
-   :width: 1300
-   :height: 400
-   :align: center
+        :alt: Deployment Structure
+        :width: 1300
+        :height: 400
+        :align: center
+
+5. 
