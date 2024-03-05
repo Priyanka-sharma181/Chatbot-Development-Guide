@@ -39,7 +39,7 @@ How to get API key
 
 - Open the `SwiftChat Merchant Dashboar <https://dashboard.swiftchat.ai/>`_
 - Login to dashboard with your merchant credentials
-- Open Profile settings tab
+- Click on profile settings tab and open **Manage Account**
   
    .. image:: ../images/installation_images/profile_settings.png
       :alt: login page 
@@ -47,6 +47,16 @@ How to get API key
       :height: 200
       :align: left
 
+- In **Manage Account** page you will get the API key at the bottom of page. You can copy the API key from there or create a new one.
+  
+   .. image:: ../images/installation_images/apiKey_page.png
+      :alt: login page 
+      :width: 1000
+      :height: 200
+      :align: left
+
+.. tip::
+   You can also get the API key using the **GET** `API <https://documenter.getpostman.com/view/20587790/UyrGCuhH#3ed63aad-3f81-4f42-b0a0-8406feb59716>`_
 
 Installation of necessary tools.
 ------------
