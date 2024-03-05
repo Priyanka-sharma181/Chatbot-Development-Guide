@@ -12,13 +12,16 @@ Registration on SwiftChat is a simple process that allows users to create an acc
       :height: 500
       :align: center
       
-3. On generating the OTP, you will get the page to enter the OTP
+3. On generating the OTP, you will get the page to enter the OTP. Enter OTP and proceed with next steps.
    
    .. image:: ../images/installation_images/otp1.png
       :alt: login page 
       :width: 2500
       :height: 500
       :align: center
+
+4. Once OTP verification is completed, you'll be prompted to input additional details such as your name, state, preferred language, and more to finalize the registration process.
+   
 
 Obtaining API keys and credentials.
 Installation of necessary tools and SDKs.
