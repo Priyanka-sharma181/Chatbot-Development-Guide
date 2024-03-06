@@ -83,7 +83,7 @@ Implementation:
    
    .. image:: ../images/other_images/button_response_body.png
         :alt: Deployment Structure
-        :width: 2000
+        :width: 1000
         :height: 200
         :align: left  
     
