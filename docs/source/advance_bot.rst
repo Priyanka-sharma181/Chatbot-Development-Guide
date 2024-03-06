@@ -24,7 +24,6 @@ Implementation:
 
           private async createButtons(from: string): Promise<void> {
             const url = `${this.apiUrl}/${this.botId}/messages`;
-            console.log(this.passageQuestionAnswer?.passage?.length);
             const messageData = {
             to: from,
             type: 'button',
@@ -78,3 +77,37 @@ Implementation:
 - The `allow_custom_response` property is set to `false` to restrict users from entering custom responses instead of selecting from the provided buttons.
 - The function sends a POST request to the specified URL with the message data, including the user's authorization token (`Authorization: Bearer ${this.apiKey}`) and the content type (`'Content-Type': 'application/json'`).
 - If the request is successful, it returns the response data; otherwise, it catches any errors and logs them to the console.
+  
+
+3. Now that we have created buttons, we have to show these buttons when the user sends "hi". Navigate to ``processMessage`` function and add a new const variable button_response in the body variable.
+   
+   .. image:: ../images/other_images/button_response_body.png
+        :alt: Deployment Structure
+        :width: 3000
+        :height: 200
+        :align: left  
+    
+4. Update the conditional statement to call the sendWelcomeMessage and createButtons functions when the message body is equal to "hi".
+   
+   .. code-block:: nest
+
+        if (intent === 'greeting') {
+            this.message.sendWelcomeMessage(from, userData.language);
+        } 
+    
+------------------------------
+    
+    Replace this code block with below code
+
+    .. code-block:: nest
+
+        if (body.text.body === 'greeting') {
+            this.message.sendWelcomeMessage(from, userData.language);
+            await this.createButtons(from);
+        } 
+    
+------------------------------
+
+
+
+
