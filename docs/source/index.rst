@@ -76,6 +76,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       :hidden:
 
       deploy.rst
+      version_control.rst
    
    .. toctree::
       :caption: api reference
