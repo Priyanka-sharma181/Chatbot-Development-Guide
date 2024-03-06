@@ -1,8 +1,8 @@
 Multimedia Support
 =======================
 
-In the previous section of the `user interaction guide <advance_bot.rst>`, we explored how to customize the starter kit and implement our own logic to create more advanced bots.
+In the earlier part of the `advanced bot guide <advance_bot.rst>`, we delved into customizing the starter kit and implementing personalized logic to develop sophisticated bots.
 
-Altough the document guided you on how to use buttons and handle user interaction, you can do more with chatbots. You can create functions that sends images, videos, templates, audio and more. 
+While the guide demonstrated the utilization of buttons and managing user interactions, the potential of chatbots extends beyond. You have the flexibility to create functions for sending a variety of media types, such as images, videos, templates, audio, and more.
 
-Just like we sent the buttons to user. 
+Similar to how we sent buttons to users, now you can enhance your bot's engagement by implementing and updating functions to deliver diverse media content. Utilize `SwiftChat APIs <https://documenter.getpostman.com/view/20587790/UyrGCuhH#987a7057-0b03-4d03-8d8f-c0296793c6b9>`_ to grasp how to send media and handle user interactions seamlessly.
