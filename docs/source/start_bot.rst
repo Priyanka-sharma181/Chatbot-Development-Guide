@@ -23,12 +23,9 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
          :align: center
    
 
-5. The SwiftChat APIs collection will now be saved in your chosen workspace. Within the **Bot** folder, you'll find the **create bot** API request. Select this request and input details such as the Bot name and your number in the **Body** section.
+5. Now move to **Body** tab, and add details like, bot-name, mobile-number, and bot-category.
 
-.. note::
-    Make sure you have updated the API key in the environment variable
-
-.. image:: ../images/create_bot_images/bot_body.png
+.. image:: ../images/create_bot_images/create_bot_body.png
    :alt: Deployment Structure
    :width: 1300
    :height: 300
