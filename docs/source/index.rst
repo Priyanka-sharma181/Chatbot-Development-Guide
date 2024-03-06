@@ -70,6 +70,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       :hidden:
 
       advance_bot.rst
+      media_support.rst
    
    .. toctree::
       :caption: Bot Deployement

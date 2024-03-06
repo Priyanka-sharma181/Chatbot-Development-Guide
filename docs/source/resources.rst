@@ -5,7 +5,7 @@ Documentation
 2. `SwiftChat Product Guide <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-developers-and-businesses/>`_
    
 
-Starter Kit
+Repository
 -----------
 
 1. `Starter Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate/tree/main/src>`_
