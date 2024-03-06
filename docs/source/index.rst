@@ -53,6 +53,8 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
 
       swiftchat_registration.rst
       get_api_key.rst
+
+      :maxdepth: 1
       installation.rst
    
    .. toctree::
