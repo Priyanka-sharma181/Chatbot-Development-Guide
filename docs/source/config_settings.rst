@@ -7,7 +7,7 @@ Now that you have created your new bot and you have the bot ID. Let's move to th
 .. note::
    Make sure before moving to the below steps, you have installed the required tools. If not then follow this `guide <installation.rst>`_
 
-Make Changes In Starter Kit:
+Make Changes In Starter Kit
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 1. Open the cloned respository in your preferred code editor
 2. Navigate to **.env.text** file and change it's name to **.env**. Update the value of .env file with your actual data.
