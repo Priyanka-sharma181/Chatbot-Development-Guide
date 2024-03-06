@@ -88,13 +88,25 @@ Configure Basic Settings
 
 Now that you have created your new bot and you the bot ID. Let's move the starter kit and make a few updated.
 
+.. note::
+   Make sure before moving to the below steps, you have installed the required tools. If not then follow this `guide <installation.rst>`_
+
 1. Open the cloned respository in your preferred code editor
 2. Navigate to **.env.text** file and change it's name to **.env**. Update the value of .env file with your actual data.
    
-   .. image:: ..images/deployment_images/env_file.png
-         :alt: Deployment Structure
-         :width: 2000
-         :height: 200
-         :align: left
+   .. image:: ../images/deployment_images/env_file.png
+      :alt: Deployment Structure
+      :width: 2000
+      :height: 200
+      :align: left
          
 3. Now navigate to the **i18n** folder and then access the **en** and **hn** files. Update the welcome message as required and save the changes. Here we will add "Hello World" to demonstrate
+   
+   .. image:: ../images/create_bot_images/i8-en.png
+      :alt: Deployment Structure
+      :width: 2000
+      :height: 200
+      :align: left
+         
+      
+   
