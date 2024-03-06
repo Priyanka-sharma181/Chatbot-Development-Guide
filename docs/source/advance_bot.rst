@@ -109,5 +109,14 @@ Implementation:
 ------------------------------
 
 
-5. Handle button interaction scenario when user selects any button.
+5. Create a new condition that handles the button interaction scenario. This condition will be responsible to check if the button_response is true and then process accordingly.
+   
+   .. code-block:: nest
+
+    else if (button_response && body.text){
+        this.message.sendLanguageChangedMessage(from, button_response.body);
+    }
+
+-----------------------------------
+   
 
