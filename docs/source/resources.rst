@@ -8,4 +8,4 @@ Documentation
 Starter Kit
 -----------
 
-1. `Started Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate/tree/main/src>`_
+1. `Starter Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate/tree/main/src>`_
