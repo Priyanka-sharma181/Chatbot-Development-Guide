@@ -5,7 +5,7 @@ Guidance for Updating EC2 Instances Using AMIs and Launch Templates
 -------------------------------
 
 Step 1: Create a Machine from an AMI
------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. **Login to AWS Console**: Access the AWS Management Console using your credentials.
    
@@ -21,7 +21,7 @@ Step 1: Create a Machine from an AMI
    - Review settings and launch the instance.
 
 Step 2: Code Checkout and Validation
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. **SSH into the New Instance**:
    - Once the instance is running, SSH into it using the associated key pair.
@@ -37,7 +37,7 @@ Step 2: Code Checkout and Validation
    - Run tests and perform validations to ensure the application functions correctly on the new instance.
 
 Step 3: Create a New AMI
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. **In AWS Console**:
    
@@ -49,7 +49,7 @@ Step 3: Create a New AMI
    - Click "Create Image."
 
 Step 4: Update the Launch Template
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. **In AWS Console**:
    
@@ -61,7 +61,7 @@ Step 4: Update the Launch Template
    - Save the changes.
 
 Step 5: Use ASG to Refresh Instances
--------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. **In AWS Console**:
    
