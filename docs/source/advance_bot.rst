@@ -86,7 +86,7 @@ Now that we have created buttons, we have to show these buttons when the user se
    .. image:: ../images/other_images/button_response_body.png
         :alt: Deployment Structure
         :width: 500
-        :height: 300
+        :height: 100
         :align: left  
 
 Updating Message Processing
@@ -119,6 +119,9 @@ Handling Button Interaction
 
 Finally, we'll create a new condition to handle button interactions. If the button_response is true and there's a valid message body, we'll send a message confirming the language change.
    
+The ``sendLanguageChangedMessage`` function takes the selected language as a parameter. It then retrieves the change_language_message from localized strings and sends the language change message according to the selected language.
+
+
    .. code-block:: nest
 
     else if (button_response && body.text){
@@ -127,4 +130,7 @@ Finally, we'll create a new condition to handle button interactions. If the butt
 
 -----------------------------------
    
-The ``sendLanguageChangedMessage`` function takes the selected language as a parameter. It then retrieves the change_language_message from localized strings and sends the language change message according to the selected language.
+By following these steps, you'll be able to change the user's language and customize the starter kit for your own bot.
+
+
+
