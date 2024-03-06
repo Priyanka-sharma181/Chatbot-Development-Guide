@@ -14,10 +14,10 @@ Let's start with a simple example. Suppose that when a user sends "hi", you want
 2. Show a message for language change confirmation.
    
 
-Implementation:
+Implementation
 ------------------
 
-Creating Buttons:
+Creating Buttons
 ^^^^^^^^^^^^^^^^
 
 We'll begin by creating a new function in the chatbot.service file called createButtons. This function will utilize the SwiftChat POST send API to generate and send buttons to the user.
@@ -89,7 +89,7 @@ Now that we have created buttons, we have to show these buttons when the user se
         :height: 200
         :align: left  
 
-Updating Message Processing:
+Updating Message Processing
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Next, we'll update the processMessage function to handle user interactions. When the user sends "hi", we'll call both the sendWelcomeMessage and createButtons functions.
@@ -114,7 +114,7 @@ Next, we'll update the processMessage function to handle user interactions. When
 ------------------------------
 
 
-Handling Button Interaction:
+Handling Button Interaction
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Finally, we'll create a new condition to handle button interactions. If the button_response is true and there's a valid message body, we'll send a message confirming the language change.
