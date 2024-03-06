@@ -34,6 +34,13 @@ Setup Webhook URL
    - Open the terminal and enter this command: ``ngrok config add-authtoken <TOKEN>``. Replace <Token> with the authorization token.
   
 2. Open terminal and run this command: ``ngrok http 3000``. This will generate a **Forwarding** URL. Copy and save this.
+   
+   .. image:: ../images/other_images/config_settings.png
+        :alt: Deployment Structure
+        :width: 2000
+        :height: 200
+        :align: left
+   
 3. Open the Postman or any other API platform
 4. Create a new PUT request and add this API ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url``in the url placeholder. Don't forget to add your bot-id.
 5. Add the Bearer API-Key in the authorization tab
