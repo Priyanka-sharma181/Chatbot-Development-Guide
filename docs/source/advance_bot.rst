@@ -20,7 +20,7 @@ Implementation:
 1. We will create a new function in the **chatbot.service** file.
 2. Inside the "createButtons" function, we will use the SwiftChat **POST** send API for creating and sending buttons to user.
 
-    .. code-block:: nest
+   .. code-block:: nest
 
           private async createButtons(from: string): Promise<void> {
             const url = `${this.apiUrl}/${this.botId}/messages`;
@@ -66,8 +66,7 @@ Implementation:
 
 ----------------------------------------            
         
-What This Code Snippets Is Doing?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+**What This Code Snippets Will Do?**
 
 - This method `createButtons` is a private asynchronous function used to create buttons for language selection in a chatbot.
 - It takes the user's identifier (`from`) as a parameter to send the buttons to the correct recipient.

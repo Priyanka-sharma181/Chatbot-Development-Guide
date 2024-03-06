@@ -40,15 +40,3 @@ Work Flow
 Overall, this method orchestrates the processing of incoming messages, including extracting information, determining intent, updating user data, and responding accordingly.
 
 
-
-
-
-
-
-.. admonition:: Next Steps
-
-    * Update the code to implement the following functionalities:
-  
-      * When the user enters **hi**, present two buttons 🔘 to allow the user to choose their preferred language 👈.
-      * Upon selecting a language button, display a message to the user confirming successful language selection 🌟.
-
