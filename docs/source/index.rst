@@ -66,6 +66,11 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       start.rst
    
    .. toctree::
+      :caption: Bot Development Basics
+      :hidden:
+
+   
+   .. toctree::
       :caption: Bot Deployement
       :hidden:
 
