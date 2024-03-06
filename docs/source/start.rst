@@ -17,7 +17,7 @@ All set up! With the bot created and updated settings, it's time to start the bo
     :height: 100
     :align: center
 
-Code Components
+Working Flow
 ^^^^^^^^^^^^^^^^^^^^^^^
    
 .. image:: ../images/other_images/process_msg.png
