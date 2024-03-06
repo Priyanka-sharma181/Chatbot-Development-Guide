@@ -94,7 +94,7 @@ Now that you have created your new bot and you the bot ID. Let's move the starte
 1. Open the cloned respository in your preferred code editor
 2. Navigate to **.env.text** file and change it's name to **.env**. Update the value of .env file with your actual data.
    
-   .. image:: ../images/deployment_images/env_file.png
+   .. image:: ../images/deployement_images/env_file.png
       :alt: Deployment Structure
       :width: 2000
       :height: 200
