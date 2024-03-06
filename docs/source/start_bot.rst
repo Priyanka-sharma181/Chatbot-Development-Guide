@@ -79,3 +79,22 @@ You can also create bot using your SwiftChat Merchant Dashboard
 4. Copy the bot link and save it for future reference. The link should resemble this format: 
    - **https://cgweb.page.link/?link=https%3A%2F%2Fweb.convegenius.ai%3FbotId%3D0216260609726241&apn=ai.convegenius.app**. 
    - In the link, the bot ID is structured as **botId%3D0216260609726241**, where the actual ID follows the "3D" prefix. So here the ID is **0216260609726241**.
+
+
+
+
+Configure Basic Settings
+------------------------
+
+Now that you have created your new bot and you the bot ID. Let's move the starter kit and make a few updated.
+
+1. Open the cloned respository in your preferred code editor
+2. Navigate to **.env.text** file and change it's name to **.env**. Update the value of .env file with your actual data.
+   
+   .. image:: ..images/deployment_images/env_file.png
+         :alt: Deployment Structure
+         :width: 2000
+         :height: 200
+         :align: left
+         
+3. Now navigate to the **i18n** folder and then access the **en** and **hn** files. Update the welcome message as required and save the changes. Here we will add "Hello World" to demonstrate

@@ -62,6 +62,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
 
       architecture.rst
       start_bot.rst
+      hello_world.rst
    
    .. toctree::
       :caption: Bot Development Basics
