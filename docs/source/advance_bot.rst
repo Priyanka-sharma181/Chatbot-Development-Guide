@@ -6,9 +6,9 @@ In this guide, we'll walk you through using and customizing the starter kit code
 .. tip::
     First read about starter kit structure `here <repo_structure.html>`_
 
-Let's start with a simple example. Suppose that when a user sends "hi", you want to display a greeting message along with two buttons for selecting their preferred language. When the user selects a language button, the language should change accordingly.
-
 **Scenario:**
+
+Let's start with a simple example. Suppose that when a user sends "hi", you want to display a greeting message along with two buttons for selecting their preferred language. When the user selects a language button, the language should change accordingly.
 
 1. Present two buttons for language selection along with welcome message when user sends "hi"
 2. Show a message for language change confirmation.
@@ -17,8 +17,10 @@ Let's start with a simple example. Suppose that when a user sends "hi", you want
 Implementation:
 ------------------
 
-1. We will create a new function in the **chatbot.service** file.
-2. Inside the "createButtons" function, we will use the SwiftChat **POST** send API for creating and sending buttons to user.
+Creating Buttons:
+^^^^^^^^^^^^^^^^
+
+We'll begin by creating a new function in the chatbot.service file called createButtons. This function will utilize the SwiftChat POST send API to generate and send buttons to the user.
 
    .. code-block:: nest
 
@@ -79,15 +81,18 @@ Implementation:
 - If the request is successful, it returns the response data; otherwise, it catches any errors and logs them to the console.
   
 
-3. Now that we have created buttons, we have to show these buttons when the user sends "hi". Navigate to ``processMessage`` function and add a new const variable button_response in the body variable.
+Now that we have created buttons, we have to show these buttons when the user sends "hi". Navigate to ``processMessage`` function and add a new const variable button_response in the body variable.
    
    .. image:: ../images/other_images/button_response_body.png
         :alt: Deployment Structure
         :width: 1000
         :height: 200
         :align: left  
-    
-4. Update the conditional statement to call the sendWelcomeMessage and createButtons functions when the message body is equal to "hi".
+
+Updating Message Processing:
+^^^^^^^^^^^^^^^^^^^^^^
+
+Next, we'll update the processMessage function to handle user interactions. When the user sends "hi", we'll call both the sendWelcomeMessage and createButtons functions.
    
    .. code-block:: nest
 
@@ -109,7 +114,10 @@ Implementation:
 ------------------------------
 
 
-5. Create a new condition that handles the button interaction scenario. This condition will be responsible to check if the button_response is true and then process accordingly.
+Handling Button Interaction:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Finally, we'll create a new condition to handle button interactions. If the button_response is true and there's a valid message body, we'll send a message confirming the language change.
    
    .. code-block:: nest
 
@@ -119,4 +127,4 @@ Implementation:
 
 -----------------------------------
    
-
+The ``sendLanguageChangedMessage`` function takes the selected language as a parameter. It then retrieves the change_language_message from localized strings and sends the language change message according to the selected language.
