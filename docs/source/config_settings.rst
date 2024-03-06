@@ -49,6 +49,6 @@ Setup Webhook URL
    .. code-block:: json
 
         {    
-        "webhook_url": "<Forwarding url>"
+        "webhook_url": "<Forwarding url/message>"
         }
 ------------------------
