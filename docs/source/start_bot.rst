@@ -1,6 +1,6 @@
 Setting Up a New Bot
 ====================
-To begin utilizing the starter kit, you'll need to obtain a Chatbot ID. You can create a chatbot either manually or via API.
+To begin utilizing the starter kit, you'll need to obtain a bot ID. You can create a chatbot either manually or via API.
 
 Creating a Bot Using the SwiftChat API
 ------------------------
@@ -11,24 +11,17 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 
 **Steps**
 
-1. Open `SwiftChat APIs Documentation <https://documenter.getpostman.com/view/20587790/UyrGCuhH#intro>`_
-2. Click on **Run In Postman**. This will provide you with two options: **Postman for web** and **Postman for ubuntu**.
-
-.. image:: ../images/create_bot_images/run_in_postman.jpg
-   :alt: Deployment Structure
-   :width: 1850
-   :height: 400
-   :align: center
-
-3. Click on **Postman for web**. You'll be redirected to a page where you can choose your Postman account. Sign in to your account and proceed with the login process.
-4. After logging in, you'll be presented with a page where you need to select a workspace to save the SwiftChat APIs.
-
-.. image:: ../images/create_bot_images/collection.png
-   :alt: Deployment Structure
-   :width: 1300
-   :height: 400
-   :align: center
-
+1. Open Postman or any other API Platform
+2. Create a new **POST** request
+3. Add this API ``https://v1-api.swiftchat.ai/api/bots`` in the url section
+4. Open the authorization section and here add your API key that we generated or got in `Obtaining API Key <get_api_key.html>`_
+   
+   .. image:: ../images/create_bot_images/create_bot_auth.rst
+         :alt: Deployment Structure
+         :width: 1300
+         :height: 300
+         :align: center
+   
 
 5. The SwiftChat APIs collection will now be saved in your chosen workspace. Within the **Bot** folder, you'll find the **create bot** API request. Select this request and input details such as the Bot name and your number in the **Body** section.
 
