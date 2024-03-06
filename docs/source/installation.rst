@@ -1,6 +1,6 @@
 Installation of necessary tools
 ====================
-This document will guide you for the installation process of necessary tools and SDKs also, here we will discuss about the chatbot starter kit. 
+This document will guide you for the installation process of necessary tools and SDKs. Also, here we will discuss about the chatbot starter kit. 
 
 Chatbot Starter Kit 🚀
 ------------
