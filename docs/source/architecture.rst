@@ -7,7 +7,7 @@ This document guides you through the development of a chatbot solution that can 
 - **AI Query Engine:** Processes user queries using natural language processing techniques
 - **Database:** Stores user data, manages knowledge, and maintains chat history and logs
 
-Deployment Architecture
+Development Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. image:: ../images/deployement_images/image.png
    :alt: Deployment Structure

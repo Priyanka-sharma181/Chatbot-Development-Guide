@@ -59,6 +59,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       :caption: Bot Development Basics
       :hidden:
 
+      architecture.rst
       repo_structure.rst
 
    .. toctree::
