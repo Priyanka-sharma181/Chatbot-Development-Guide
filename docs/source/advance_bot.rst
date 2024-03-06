@@ -83,7 +83,7 @@ Implementation:
    
    .. image:: ../images/other_images/button_response_body.png
         :alt: Deployment Structure
-        :width: 3000
+        :width: 2000
         :height: 200
         :align: left  
     
@@ -109,5 +109,5 @@ Implementation:
 ------------------------------
 
 
-
+5. Handle button interaction scenario when user selects any button.
 
