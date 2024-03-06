@@ -12,4 +12,4 @@ Let's start with a simple example. Suppose that when a user sends "hi", you want
 
 1. Display a welcome message when the user sends "hi".
 2. Present two buttons for language selection.
-3. Provide feedback to the user upon changing the language.
+3. Show a message for language change confirmation.
