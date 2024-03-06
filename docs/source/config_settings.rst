@@ -42,7 +42,7 @@ Setup Webhook URL
         :align: left
    
 3. Open the Postman or any other API platform
-4. Create a new PUT request and add this API ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url``in the url placeholder. Don't forget to add your bot-id.
+4. Create a new PUT request and add this API ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/webhook-url`` in the url placeholder. Don't forget to add your bot-id.
 5. Add the Bearer API-Key in the authorization tab
 6. Add this in the body
    

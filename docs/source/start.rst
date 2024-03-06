@@ -14,7 +14,7 @@ All set up! With the bot created and updated settings, it's time to start the bo
 .. image:: ../images/other_images/first_msg.png
     :alt: Deployment Structure
     :width: 2000
-    :height: 200
+    :height: 100
     :align: center
 
 
