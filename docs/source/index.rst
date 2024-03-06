@@ -61,7 +61,6 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
 
       architecture.rst
       start_bot.rst
-      repo_structure.rst
 
    .. toctree::
       :caption: Repo Structure
