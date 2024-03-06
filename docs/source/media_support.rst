@@ -1,7 +1,7 @@
 Multimedia Support
 =======================
 
-In the earlier part of the `advanced bot guide <advance_bot.rst>`, we delved into customizing the starter kit and implementing personalized logic to develop sophisticated bots.
+In the earlier part of the `advanced bot guide <advance_bot.html>`, we delved into customizing the starter kit and implementing personalized logic to develop sophisticated bots.
 
 While the guide demonstrated the utilization of buttons and managing user interactions, the potential of chatbots extends beyond. You have the flexibility to create functions for sending a variety of media types, such as images, videos, templates, audio, and more.
 
