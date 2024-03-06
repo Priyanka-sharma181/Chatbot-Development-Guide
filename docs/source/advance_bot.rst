@@ -10,6 +10,72 @@ Let's start with a simple example. Suppose that when a user sends "hi", you want
 
 **Scenario:**
 
-1. Display a welcome message when the user sends "hi".
-2. Present two buttons for language selection.
-3. Show a message for language change confirmation.
+1. Present two buttons for language selection along with welcome message when user sends "hi"
+2. Show a message for language change confirmation.
+   
+
+Implementation:
+------------------
+
+1. We will create a new function in the **chatbot.service** file.
+2. Inside the "createButtons" function, we will use the SwiftChat **POST** send API for creating and sending buttons to user.
+
+    .. code-block:: nest
+
+          private async createButtons(from: string): Promise<void> {
+            const url = `${this.apiUrl}/${this.botId}/messages`;
+            console.log(this.passageQuestionAnswer?.passage?.length);
+            const messageData = {
+            to: from,
+            type: 'button',
+            button: {
+                body: {
+                type: 'text',
+                text: {
+                    body: choose language'
+                },
+                },
+                buttons: [
+                {
+                    type: 'solid',
+                    body: 'Hindi',
+                    reply: 'Hindi',
+                },
+                {
+                    type: 'solid',
+                    body: 'English',
+                    reply: 'English',
+                },
+                ],
+                allow_custom_response: false,
+            },
+            };
+            try {
+            const response = await axios.post(url, messageData, {
+                headers: {
+                Authorization: `Bearer ${this.apiKey}`,
+                'Content-Type': 'application/json',
+                },
+            });
+            return response.data;
+            } 
+            catch (error) {
+            console.error('errors:', error);
+            }
+        }
+
+----------------------------------------            
+        
+What This Code Snippets Is Doing?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- This method `createButtons` is a private asynchronous function used to create buttons for language selection in a chatbot.
+- It takes the user's identifier (`from`) as a parameter to send the buttons to the correct recipient.
+- The function constructs a URL using the API ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` to specify the endpoint for sending messages.
+- It prepares the message data, including the recipient (`to`), message type (`type`), and button details.
+- The button message body contains a text prompt for the user to choose a language.
+- Two buttons are provided for language selection: "Hindi" and "English".
+- Each button has a solid style (`type: 'solid'`) and a corresponding reply value indicating the selected language (`reply: 'Hindi'` or `reply: 'English'`).
+- The `allow_custom_response` property is set to `false` to restrict users from entering custom responses instead of selecting from the provided buttons.
+- The function sends a POST request to the specified URL with the message data, including the user's authorization token (`Authorization: Bearer ${this.apiKey}`) and the content type (`'Content-Type': 'application/json'`).
+- If the request is successful, it returns the response data; otherwise, it catches any errors and logs them to the console.
