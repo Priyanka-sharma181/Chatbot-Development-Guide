@@ -17,28 +17,28 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 4. Open the authorization section and here add your API key that we generated or got in `Obtaining API Key <get_api_key.html>`_
    
    .. image:: ../images/create_bot_images/create_bot_auth.rst
-         :alt: Deployment Structure
-         :width: 1300
-         :height: 300
-         :align: center
+      :alt: Deployment Structure
+      :width: 1300
+      :height: 300
+      :align: center
    
 
 5. Now move to **Body** tab, and add details like, bot-name, mobile-number, and bot-category.
 
-.. image:: ../images/create_bot_images/create_bot_body.png
-   :alt: Deployment Structure
-   :width: 1300
-   :height: 300
-   :align: center
+   .. image:: ../images/create_bot_images/create_bot_body.png
+      :alt: Deployment Structure
+      :width: 1300
+      :height: 300
+      :align: center
 
 
 6. On successfully creating bot you will receive a message **created** and status code **OK**
 
-.. image:: ../images/create_bot_images/successful_bot.png
-   :alt: Deployment Structure
-   :width: 1300
-   :height: 100
-   :align: center
+   .. image:: ../images/create_bot_images/successful_bot.png
+      :alt: Deployment Structure
+      :width: 1300
+      :height: 100
+      :align: center
 
 
 7. After creating bot, use the `**varify API** <https://documenter.getpostman.com/view/20587790/UyrGCuhH#a5fa0876-d1b1-48de-a475-dad2ff467071>`_ and varify your bot. This will generate the bot ID.
