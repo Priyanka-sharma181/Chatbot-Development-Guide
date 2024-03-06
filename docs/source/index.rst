@@ -82,3 +82,9 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
 
       api_reference.rst
 
+  .. toctree::
+      :caption: resourced
+      :hidden:
+
+      resources.rst
+
