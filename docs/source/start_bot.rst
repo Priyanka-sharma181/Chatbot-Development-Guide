@@ -16,7 +16,7 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 3. Add this API ``https://v1-api.swiftchat.ai/api/bots`` in the url section
 4. Open the authorization section and here add your API key that we generated or got in `Obtaining API Key <get_api_key.html>`_
    
-   .. image:: ../images/create_bot_images/create_bot_auth.rst
+   .. image:: ../images/create_bot_images/create_bot_auth.png
       :alt: Deployment Structure
       :width: 1300
       :height: 300
