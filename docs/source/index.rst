@@ -69,7 +69,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       :caption: Advanced Bot Development
       :hidden:
 
-      start.rst
+      advance_bot.rst
    
    .. toctree::
       :caption: Bot Deployement
