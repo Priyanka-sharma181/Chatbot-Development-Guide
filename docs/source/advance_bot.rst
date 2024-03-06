@@ -134,3 +134,38 @@ By following these steps, you'll be able to change the user's language and custo
 
 
 
+NLP
+============
+In the above guide, we saw how to customize the starter kit to create our own bot and handle user interaction. Let's assume you have to design a chatbot that that takes the user input or query and provides the answers for their query. This is where the NLP becomes important.
+
+NLP, or Natural Language Processing, is a branch of artificial intelligence (AI) focused on enabling computers to understand, interpret, and generate human language in a way that is both meaningful and useful. It involves the interaction between computers and humans through natural language.
+
+NLP encompasses a range of tasks and techniques, including:
+
+1. Text Processing: Breaking down text into its constituent parts, such as words, sentences, and paragraphs.
+2. Tokenization: Splitting text into smaller units, or tokens, such as words or phrases.
+3. Part-of-Speech Tagging: Assigning grammatical categories (e.g., noun, verb, adjective) to words in a sentence.
+4. Named Entity Recognition (NER): Identifying and categorizing named entities (e.g., names of people, organizations, locations) in text.
+5. Sentiment Analysis: Determining the sentiment or opinion expressed in a piece of text, such as positive, negative, or neutral.
+6. Machine Translation: Translating text from one language to another automatically.
+7. Question Answering: Generating answers to questions posed in natural language.
+
+Overall, NLP enables computers to process, analyze, and understand human language, which has applications in various fields, including virtual assistants, chatbots, information retrieval, and language translation.
+
+Top NLPs
+-----------------
+
+We have a list of top NLP that you can utilize in your chatbot. Some popular natural language processing (NLP) libraries and frameworks include:
+
+1. NLTK (Natural Language Toolkit)
+2. spaCy
+3. Stanford NLP
+4. Gensim
+5. TextBlob
+6. CoreNLP
+7. OpenNLP
+8. FastText
+9. Transformers (such as BERT, GPT, etc.)
+10. AllenNLP
+
+These libraries offer various functionalities for tasks like tokenization, part-of-speech tagging, named entity recognition, sentiment analysis, and more.
