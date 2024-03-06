@@ -48,8 +48,8 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
 .. only:: not index
 
    .. toctree::
-      :caption: Getting Started
       :maxdepth: 1
+      :caption: Getting Started
       :hidden:
 
       swiftchat_registration.rst
