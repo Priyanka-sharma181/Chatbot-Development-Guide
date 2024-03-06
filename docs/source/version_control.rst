@@ -1,5 +1,8 @@
+Version Control
+=====================
+
 Guidance for Updating EC2 Instances Using AMIs and Launch Templates
-======================================================================
+-------------------------------
 
 Step 1: Create a Machine from an AMI
 -----------------------------------------
