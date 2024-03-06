@@ -85,8 +85,8 @@ Now that we have created buttons, we have to show these buttons when the user se
    
    .. image:: ../images/other_images/button_response_body.png
         :alt: Deployment Structure
-        :width: 1000
-        :height: 200
+        :width: 500
+        :height: 300
         :align: left  
 
 Updating Message Processing
