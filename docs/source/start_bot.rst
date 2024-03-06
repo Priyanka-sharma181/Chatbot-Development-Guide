@@ -1,4 +1,4 @@
-Creating Your First Chatbot
+Setting Up a New Bot
 ====================
 To begin utilizing the starter kit, you'll need to obtain a Chatbot ID. You can create a chatbot either manually or via API.
 
@@ -51,7 +51,7 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
    :align: center
 
 
-7. After creating bot, use the **varify API** and varify your bot. This will generate the bot ID.
+7. After creating bot, use the `**varify API** <https://documenter.getpostman.com/view/20587790/UyrGCuhH#a5fa0876-d1b1-48de-a475-dad2ff467071>`_ and varify your bot. This will generate the bot ID.
 
 
 Creating a Bot Using the SwiftChat Dashboard
@@ -61,6 +61,13 @@ You can also create bot using your SwiftChat Merchant Dashboard
 **Steps:**
 
 1. Login to your `SwiftChat Merchant Dashboard <https://dashboard.swiftchat.ai/bots>`_.
+   
+
+.. tip:: 
+
+   - Create your merchant account using this Post `API <https://documenter.getpostman.com/view/20587790/UyrGCuhH#57d73550-1c15-41a5-ac7e-0ba20b60b3e4>`_ 
+   - Complete business KYC and email varification
+
 2. Click on **Add New Bot** button.
 
 .. image:: ../images/create_bot_images/add_bot.png

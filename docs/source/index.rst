@@ -60,6 +60,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       :hidden:
 
       architecture.rst
+      start_bot.rst
       repo_structure.rst
 
    .. toctree::
