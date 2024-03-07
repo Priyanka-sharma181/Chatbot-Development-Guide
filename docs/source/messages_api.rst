@@ -171,9 +171,9 @@ The SwiftChat Message API enables developers to interact with users through vari
             }
 ---------------------------------
                     
-6. **Send Audi Message:** 
+6. **Send Audio Message:** 
    
-   1. **By Media-Id:** We can send the audio to user using the audio-id of audio using this **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API.
+    1. **By Media-Id:** We can send the audio to user using the audio-id of audio using this **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API.
        
        Body:
        
@@ -218,3 +218,77 @@ The SwiftChat Message API enables developers to interact with users through vari
             }
 ----------------------------- 
 
+
+7. **Send Button Message:** Use this **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API to create and send buttons to user. You need to provide parameters like to, type, button etc. On successfully sending buttons it will generate the id.
+   
+   Body:
+
+   .. code-block:: json
+
+        {
+        "to": "<recepient-mobile>",
+        "type": "button",
+        "button": {
+            "body": {
+                "type": "text",
+                "text": {
+                    "body": "<message-text>"
+                }
+            },
+            "buttons": [
+                {
+                    "icon": "<button-icon>",
+                    "type": "<button-type>",
+                    "body": "<button-text>",
+                    "reply": "<user-click-response>"
+                },
+                {
+                    "icon": "<button-icon>",
+                    "type": "<button-type>",
+                    "body": "<button-text>",
+                    "reply": "<user-click-response>"
+                }
+            ],
+            "allow_custom_response": false
+        },
+        "rating_type": "thumb"
+        }
+        
+--------------------------------------------
+
+8. **Send Multi Select Button:** If you want to create buttons where user can select multiple options, you can create buttons using this **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API.
+   
+   Body:
+
+   .. code-block:: json
+
+    {
+        "to": "<recepient-mobile>",
+        "type": "button",
+        "multi_select_button": {
+            "body": {
+                "type": "text",
+                "text": {
+                    "body": "<message-text>"
+                }
+            },
+            "multi_select_button": [
+                {
+                    "icon": "<button-icon>",
+                    "type": "<button-type>",
+                    "body": "<button-text>",
+                    "reply": "<user-click-response>"
+                },
+                {
+                    "icon": "<button-icon>",
+                    "type": "<button-type>",
+                    "body": "<button-text>",
+                    "reply": "<user-click-response>"
+                }
+            ],
+            "allow_custom_response": false
+        },
+        "rating_type": "thumb"
+    }
+
+-----------------------------------
