@@ -125,7 +125,7 @@ The SwiftChat Message API enables developers to interact with users through vari
     
 ----------------------------   
 
-1. **Send Video Message:**
+5. **Send Video Message:**
 
    1. **By media-id:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media ID of the video. The supported video types are MP4 and 3GP.
        
@@ -171,3 +171,50 @@ The SwiftChat Message API enables developers to interact with users through vari
             }
 ---------------------------------
                     
+6. **Send Audi Message:** 
+   
+   1. **By Media-Id:** We can send the audio to user using the audio-id of audio using this **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API.
+       
+       Body:
+       
+       .. code-block:: json
+
+        {
+            "to": "<recepient-mobile>",
+            "type": "audio",
+            "audio": {
+                "id": "<media-id>",
+                "title": "<audio-title>",
+                "body": "<audio-caption>"
+            },
+            "rating_type": "thumb"
+        }
+------------------------------
+
+   2. **BY Media-Url:** We can send the audio to user using the audio-url of audio using this **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API.
+       
+        Body:
+
+        .. code-block:: json
+
+        {
+            "to": "<recepient-mobile>",
+            "type": "audio",
+            "audio": {
+                "url": "<media-url>",
+                "title": "<audio-title>",
+                "body": "<audio-caption>"
+            },
+            "rating_type": "thumb"
+        }
+ -------------------------------------
+
+   Response:
+
+        .. code-block:: json
+               
+            {
+                "id": "b0e448d2-abf1-48bf-b536-2794d3c6ad25"
+            }
+----------------------------- 
+
