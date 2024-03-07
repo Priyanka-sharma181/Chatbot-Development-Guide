@@ -84,6 +84,7 @@ In this documentation, you'll explore the SwiftChat platform and its procedures,
       :hidden:
 
       api_reference.rst
+      analytics.rst
 
   .. toctree::
       :caption: FAQs
