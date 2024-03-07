@@ -6,12 +6,13 @@ Frequently Asked Questions (FAQs)
 ---------------------
 
    - Organize repositories based on modules:
+  
      - Chatbot Backend
      - NLP Engine (Gen AI)
      - Terraform scripts for Deployments
      - Knowledge Content
 
-2. How should we scale our infrastructure?
+1. How should we scale our infrastructure?
 ---------------------
 
    - Evaluate scaling strategies based on demand and growth patterns.
@@ -21,10 +22,11 @@ Frequently Asked Questions (FAQs)
 ---------------------
 
    - Decide based on specific requirements:
+  
      - Network Load Balancer (NLB) for even traffic distribution.
      - Application Load Balancer (ALB) for advanced routing, SSL termination, and content-based routing.
 
-4. How should we scale Vector Database Infrastructure?
+1. How should we scale Vector Database Infrastructure?
 ---------------------
 
    - Assess growth patterns and scaling needs.
@@ -37,6 +39,7 @@ Frequently Asked Questions (FAQs)
 
 6. How to manage infrastructure?
 -------------------
+
    - Implement version control for infrastructure-as-code scripts.
    - Ensure proper documentation for onboarding and troubleshooting.
 
