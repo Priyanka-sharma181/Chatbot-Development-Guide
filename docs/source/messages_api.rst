@@ -31,4 +31,30 @@ The SwiftChat Message API enables developers to interact with users through vari
     
 ------------------------------
 
-2. Send Document Message: Send a document 
+2. Send Document Message: Send a document message to user using the media-id of document. Similar to text message it will generate a id for message. Have a look at below sample body.
+   
+   body:
+
+   .. code-block:: json
+    
+    {
+        "to": "<recepient-mobile>",
+        "type": "document",
+        "document": {
+            "id": "<media-id>",
+            "name": "<document-filename>",
+            "body": "<document-caption>"
+        },
+        "rating_type": "thumb"
+    }
+
+--------------------------   
+
+    Response:
+
+    .. code-block:: json
+
+        {
+         "id": "6262514b-ef48-4d30-bb61-07bd80670e1b"
+        }
+-------------------------
