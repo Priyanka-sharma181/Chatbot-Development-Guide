@@ -7,6 +7,7 @@ The "Region" API allows developers to specify the geographical scope of their bo
    This will give you all countries with their code like this:
 
    .. code-block:: json
+
     {
     "data": [
         {
@@ -63,3 +64,38 @@ The "Region" API allows developers to specify the geographical scope of their bo
     }
         
 --------------------------
+
+4. Get all the countries where your bot is active and operational by using this **GET** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/availability/regions`` API. Replace the bot-id with your bot-id.
+   
+   Response:
+
+   .. code-block:: json
+            
+        {
+        "data": [
+            {
+            "country_code": "IN",
+            "states": [
+                "AP"
+            ],
+            "cities": [
+                {
+                "state_code": "AP",
+                "cities": [
+                    "Attili",
+                    "Avanigadda"
+                ]
+                }
+            ]
+            },
+            {
+            "country_code": "SG",
+            "states": [],
+            "cities": []
+            }
+        ]
+        }
+   
+---------------------------------   
+
+5. If you want to make your bot available in a particular country use this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/availability/regions`` API.
