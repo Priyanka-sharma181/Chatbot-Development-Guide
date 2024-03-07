@@ -97,7 +97,7 @@ The SwiftChat Message API enables developers to interact with users through vari
         }
 -------------------
 
-    2. **By Media-Url:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the image to the user by the media url of the image. The supported image types are JPEG, PNG, and GIF.
+   2. **By Media-Url:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the image to the user by the media url of the image. The supported image types are JPEG, PNG, and GIF.
       
        Body:
 
@@ -115,7 +115,7 @@ The SwiftChat Message API enables developers to interact with users through vari
             
 ----------------------------
 
-    Response:
+   Response:
 
     .. code-block:: json
 
@@ -125,9 +125,9 @@ The SwiftChat Message API enables developers to interact with users through vari
     
 ----------------------------   
 
-5. **Send Video Message:**
+1. **Send Video Message:**
 
-    1. **By media-id:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media ID of the video. The supported video types are MP4 and 3GP.
+   1. **By media-id:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media ID of the video. The supported video types are MP4 and 3GP.
        
        Body:
 
@@ -144,7 +144,7 @@ The SwiftChat Message API enables developers to interact with users through vari
         }
 ----------------------------------------
 
-    2. **By Media-Url:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media url of the video. The supported video types are MP4 and 3GP.
+   2. **By Media-Url:** This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media url of the video. The supported video types are MP4 and 3GP.
     
        Body:
 
@@ -162,7 +162,7 @@ The SwiftChat Message API enables developers to interact with users through vari
 ---------------------------------------
 
        
-        Response:
+   Response:
 
         .. code-block:: json
 
