@@ -98,4 +98,4 @@ The "Region" API allows developers to specify the geographical scope of their bo
    
 ---------------------------------   
 
-5. If you want to make your bot available in a particular country use this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/availability/regions`` API.
+5. If you want to make your bot available in a particular country use this **PUT** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/availability/regions`` API. On successful update you will get status code **200** and **OK**.
