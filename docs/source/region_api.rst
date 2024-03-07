@@ -22,7 +22,7 @@ The "Region" API allows developers to specify the geographical scope of their bo
 
 ----------------------------
 
-2. Retrieve the available list of states in a country and their codes in which you can make your bot searchable using this **GET** ``https://v1-api.swiftchat.ai/api/regions/states?country_code=IN``. Replace the country code with your own.
+2. Retrieve the available list of states in a country and their codes in which you can make your bot searchable using this **GET** ``https://v1-api.swiftchat.ai/api/regions/states?country_code=IN``. Replace the country code with your own one.
    
    Get a response like this:
 
@@ -42,3 +42,24 @@ The "Region" API allows developers to specify the geographical scope of their bo
         }
    
 ----------------------------
+
+3. If you want to make your bot searchable in particular cities, you can use this **GET** ``https://v1-api.swiftchat.ai/api/regions/cities?country_code=IN&state_code=UP`` api to retrieve all cities where you can make your bot searchable. Replace the state code with you own one.
+   
+   You will get response like this:
+
+   .. code-block:: json
+        
+    {
+        "data": [
+            "Achhnera",
+            "Afzalgarh",
+            "Agra",
+            "Āgra",
+            "Ahraura",
+            "Ajodhya",
+            "Akbarpur",
+            "Alīganj",
+        ]
+    }
+        
+--------------------------
