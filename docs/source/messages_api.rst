@@ -124,3 +124,50 @@ The SwiftChat Message API enables developers to interact with users through vari
         }
     
 ----------------------------   
+
+5. Send Video Message
+
+    1. By media-id: This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media ID of the video. The supported video types are MP4 and 3GP.
+       
+       Body:
+
+       .. code-block:: json
+
+        {
+            "to": "<recepient-mobile>",
+            "type": "video",
+            "video": {
+                "id": "<media-id>",
+                "title": "<video-title>"
+            },
+            "rating_type": "thumb"
+        }
+----------------------------------------
+
+    2. By Media-Url: This **POST** ``https://v1-api.swiftchat.ai/api/bots/<bot-id>/messages`` API sends the video to the user by the media url of the video. The supported video types are MP4 and 3GP.
+    
+       Body:
+
+       .. code-block:: json
+
+        {
+            "to": "<recepient-mobile>",
+            "type": "video",
+            "video": {
+                "id": "<media-id>",
+                "title": "<video-title>"
+            },
+            "rating_type": "thumb"
+        }
+---------------------------------------
+
+       
+        Response:
+
+        .. code-block:: json
+
+            {
+              "id": "a912a4fa-9833-4ba6-86a0-ed8557bb5bc9"
+            }
+---------------------------------
+                    
