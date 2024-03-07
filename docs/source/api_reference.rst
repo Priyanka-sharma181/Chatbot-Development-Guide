@@ -11,3 +11,9 @@ SwiftChat APIs helps you integrate your interactive bots with SwiftChat, so you 
 
 2. `Bot APIs <bot_api.html>`_
 ----------
+
+
+3. `Region APIs <region_api.html>`_
+----------
+
+
