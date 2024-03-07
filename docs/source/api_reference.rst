@@ -19,3 +19,6 @@ SwiftChat APIs helps you integrate your interactive bots with SwiftChat, so you 
 4. `Media APIs <media_api.html>`_
 ----------
 
+5. `Get Conversation APIs <conversation_api.html>`_
+----------
+
