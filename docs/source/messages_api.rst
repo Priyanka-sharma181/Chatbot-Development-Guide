@@ -18,6 +18,17 @@ The SwiftChat Message API enables developers to interact with users through vari
         },
         "rating_type": "thumb"
     }
-    
+
 --------------------------
    
+   On successfully sending text message, in response it generates a message-id.
+
+   .. code-block:: json
+
+    {
+      "id": "ba69108d-fed6-4573-be11-383a81a074bb"
+    }
+    
+------------------------------
+
+2. Send Document Message: Send a document 
