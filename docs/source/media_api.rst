@@ -8,7 +8,7 @@ The "Media" API facilitates the management of media files used in bot communicat
    .. image:: ../images/api_reference_images/upload_media.png
         :alt: login page 
         :width: 2500
-        :height: 500
+        :height: 300
         :align: center
     
    On successful completion you will recieve the media-id.
