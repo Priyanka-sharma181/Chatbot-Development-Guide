@@ -197,16 +197,17 @@ The SwiftChat Message API enables developers to interact with users through vari
 
         .. code-block:: json
 
-        {
-            "to": "<recepient-mobile>",
-            "type": "audio",
-            "audio": {
-                "url": "<media-url>",
-                "title": "<audio-title>",
-                "body": "<audio-caption>"
-            },
-            "rating_type": "thumb"
-        }
+            {
+                "to": "<recepient-mobile>",
+                "type": "audio",
+                "audio": {
+                    "url": "<media-url>",
+                    "title": "<audio-title>",
+                    "body": "<audio-caption>"
+                },
+                "rating_type": "thumb"
+            }
+
  -------------------------------------
 
    Response:
