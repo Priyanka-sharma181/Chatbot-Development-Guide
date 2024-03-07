@@ -17,15 +17,15 @@ In order to get the API key and to access the other features of swiftchat platfo
   
    .. image:: ../images/installation_images/profile_settings.png
       :alt: login page 
-      :width: 2000
-      :height: 400
+      :width: 3000
+      :height: 200
       :align: left
 
 - In **Manage Account** page you will get the API key at the bottom of page. You can copy the API key from there or create a new one.
   
    .. image:: ../images/installation_images/apiKey_page.png
       :alt: login page 
-      :width: 2500
+      :width: 3500
       :height: 400
       :align: left
 
