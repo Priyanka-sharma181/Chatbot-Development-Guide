@@ -11,7 +11,7 @@ This guide will walk you through the process of integrating various analytics to
 
 **3. Integrating Analytics Tools:**
 
-   **3.1 Google Analytics:**
+   `**3.1 Google Analytics <https://developers.google.com/analytics/devguides/collection/ga4>:**`_
    - Obtain your Google Analytics tracking ID.
    - Initialize Google Analytics SDK in your bot application.
    - Track relevant events and user interactions using the provided methods in the SDK.
