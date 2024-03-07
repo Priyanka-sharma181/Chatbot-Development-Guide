@@ -83,9 +83,9 @@ We'll begin by creating a new function in the chatbot.service file called create
 
 Now that we have created buttons, we have to show these buttons when the user sends "hi". Navigate to ``processMessage`` function and add a new const variable button_response in the body variable.
    
-   .. image:: ../images/other_images/button_response_body.png
+.. image:: ../images/other_images/button_response_body.png
         :alt: Deployment Structure
-        :width: 500
+        :width: 1000
         :height: 100
         :align: left  
 
