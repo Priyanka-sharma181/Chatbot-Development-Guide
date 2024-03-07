@@ -11,23 +11,28 @@ This guide will walk you through the process of integrating various analytics to
 
 **3. Integrating Analytics Tools:**
 
-   `**3.1 Google Analytics <https://developers.google.com/analytics/devguides/collection/ga4>:**`_
+   **3.1 Google Analytics:**
    - Obtain your Google Analytics tracking ID.
    - Initialize Google Analytics SDK in your bot application.
    - Track relevant events and user interactions using the provided methods in the SDK.
    - Refer to the Google Analytics documentation for detailed implementation instructions.
+   - `Documentation <https://developers.google.com/analytics/devguides/collection/ga4>`_
+
 
    **3.2 Mixpanel:**
    - Obtain your Mixpanel project token.
    - Initialize Mixpanel SDK in your bot application.
    - Track events and user properties using the provided methods in the SDK.
    - Refer to the Mixpanel documentation for detailed implementation instructions.
+   - `Documentation <https://docs.mixpanel.com/docs/what-is-mixpanel>`_
 
    **3.3 Amplitude:**
    - Obtain your Amplitude API key.
    - Initialize Amplitude SDK in your bot application.
    - Track events and user properties using the provided methods in the SDK.
    - Refer to the Amplitude documentation for detailed implementation instructions.
+   - `Documentation <https://www.docs.developers.amplitude.com/documentation-home/>`_
+
 
 **4. Implement Event Tracking:**
    - Identify key events and user interactions within your bot that you want to track for analytics purposes.
