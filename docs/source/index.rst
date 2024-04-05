@@ -12,15 +12,25 @@ Key Features
 
 1. **Supports a Wide Variety of Messages:**
     1.1 Text Message
+
     1.2 Document, Image, Video
+
     1.3 Video Stream
+
     1.4 Single/Multi-Select Buttons
+
     1.5 Card
+
     1.6 Article
+
     1.7 Rich Input Text
+
     1.8 Template Message
+
     1.9 Action Message
+
     1.10 Location
+
     1.11 Score Card
 
 2. **Send 'Posts' on Behalf of Bot to Engage Your Audience**
