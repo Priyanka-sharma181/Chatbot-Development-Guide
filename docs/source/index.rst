@@ -32,13 +32,13 @@ Read more about these key features in detail: `here <https://swiftchat.ai/swiftc
 Use Cases
 ------------------------
 There are plenty of use cases where you can create your own bots such as:
-1. News Bots
-2. Celebrity Bots
-3. Religious Bots
-4. Counselling Bots
-5. Quiz and Games
-6. Notification and Alerts services in various sectors like Manufacturing, Hospitals, service corporates, etc.
-7. Games, etc.
+#. News Bots
+#. Celebrity Bots
+#. Religious Bots
+#. Counselling Bots
+#. Quiz and Games
+#. Notification and Alerts services in various sectors like Manufacturing, Hospitals, service corporates, etc.
+#. Games, etc.
 
 
 
