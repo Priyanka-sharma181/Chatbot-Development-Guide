@@ -10,7 +10,8 @@ SwiftChat platform enables you to connect with thousands of users by creating a 
 Key Features
 ------------------------
 
-1. **Supports a Wide Variety of Messages:**
+#. **Supports a Wide Variety of Messages:**
+   
    #. Text Message  
    #. Document, Image, Video  
    #. Video Stream  
@@ -23,9 +24,9 @@ Key Features
    #. Location  
    #. Score Card
 
-2. **Send 'Posts' on Behalf of Bot to Engage Your Audience**
+#. **Send 'Posts' on Behalf of Bot to Engage Your Audience**
 
-3. **Publish Mini Apps with Rich UI**
+#. **Publish Mini Apps with Rich UI**
 
 Read more about these key features in detail: `here <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-end-users/>`_
 
