@@ -10,22 +10,22 @@ SwiftChat platform enables you to connect with thousands of users by creating a 
 Key Features
 ------------------------
 
-Swiftchat is evolving at a fast pace, here are the current key features:
+1. **Supports a Wide Variety of Messages:**
+    1.1 Text Message
+    1.2 Document, Image, Video
+    1.3 Video Stream
+    1.4 Single/Multi-Select Buttons
+    1.5 Card
+    1.6 Article
+    1.7 Rich Input Text
+    1.8 Template Message
+    1.9 Action Message
+    1.10 Location
+    1.11 Score Card
 
-1. Supports wide variety of messages
-1.1 Text Message
-1.2 Document, Image, Video
-1.3 Video Stream
-1.4 Single/Multi-Select Buttons
-1.5 Card
-1.6 Article
-1.7 Rich Input Text
-1.8 Template Message
-1.9 Action Message
-1.10 Location
-1.11 Score Card
-2. Send 'Posts' on behalf of Bot to engage your audience
-3. Publish Mini Apps with rich UI
+2. **Send 'Posts' on Behalf of Bot to Engage Your Audience**
+
+3. **Publish Mini Apps with Rich UI**
 
 Read more about these key features in detail: `here <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-end-users/>`_
 
