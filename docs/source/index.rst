@@ -1,41 +1,46 @@
 SwiftChat Platform 
 ====================
-SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versatile platform for building, using, and discovering chatbots. Leveraging conversational interfaces, it enables businesses, governments, and other entities to engage with consumers effectively. With its user and developer-focused components, SwiftChat offers a comprehensive solution for creating and deploying chatbots. The recent v2 release enhances discoverability, expands bot capabilities, and provides APIs for businesses, positioning SwiftChat as a pivotal tool for fostering customer-centric interactions and connection-building.
+SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versatile platform for building, using, and discovering chatbots. Leveraging conversational interfaces, enables businesses, governments, and other entities to engage with consumers effectively. With its user and developer-focused components, SwiftChat offers a comprehensive solution for creating and deploying chatbots. The recent v2 release enhances discoverability, expands bot capabilities, and provides APIs for businesses, positioning SwiftChat as a pivotal tool for fostering customer-centric interactions and connection-building.
 
-Why develope bots on SwiftChat Platform?
+Why to choose SwiftChat?
 ====================
-The SwiftChat platform provides developers and businesses with a comprehensive API and diverse components to build and host chatbots. Whether building from scratch or integrating existing bots, businesses can enhance their conversational experiences using interactive components. Building and hosting bots on SwiftChat is streamlined, with detailed API documentation available for guidance.
+SwiftChat platform enables you to connect with thousands of users by creating a seamless digital presence without requiring users to install a separate application. The emerging platform currently serves over 200 million users from over 15 Indian States. It's a great opportunity to gain exposure to such a huge audience at an early stage to stay ahead of the competition. It has a richer User experience as compared to other messaging platforms such as WhatsApp, Telegram, X, etc. which will help to engage the audience with a wide variety of options.
 
-Benefits 
-------------------------
-1. **Simple Interface:** SwiftChat offers an intuitive platform for bot development, making it accessible even to those with limited technical expertise.
-
-2. **Shareable Links:** The platform allows for easy sharing of bot links, facilitating seamless distribution and accessibility for users.
-
-3. **Interactive APIs:** With interactive APIs, developers can send a variety of messages including text, buttons, media, and more, enhancing the engagement and interaction levels of the bots.
-
-4. **Versatile Components:** SwiftChat provides a range of components such as buttons, lists, and cards, enabling developers to create dynamic and engaging conversational experiences for users.
-
-5. **Persistent Menu:** The inclusion of a persistent menu ensures users have easy access to core bot functionalities throughout the conversation, enhancing user experience and navigation.
 
 Key Features
 ------------------------
 
-The SwiftChat provides multiple fratures that makes it easier and compatible to develope bots on SwiftChat. The top features includes:
+Swiftchat is evolving at a fast pace, here are the current key features:
 
-1. User authentication using a phone number
-2. Edit Phone Number
-3. Chat Section
-4. QR Code Scanner
-5. Hamburger Menu
-6. Bot Sharing Feature
-7. QR Code for bots
-8. Ability to change the Text Size for the App font
-9. Bot ratings
-10. Bot Description
-11. Helpline Information
+1. Supports wide variety of messages
+1.1 Text Message
+1.2 Document, Image, Video
+1.3 Video Stream
+1.4 Single/Multi-Select Buttons
+1.5 Card
+1.6 Article
+1.7 Rich Input Text
+1.8 Template Message
+1.9 Action Message
+1.10 Location
+1.11 Score Card
+2. Send 'Posts' on behalf of Bot to engage your audience
+3. Publish Mini Apps with rich UI
 
 Read more about these key features in detail: `here <https://swiftchat.ai/swiftchatapp/swiftchat-platform-for-end-users/>`_
+
+Use Cases
+------------------------
+There are plenty of use cases where you can create your own bots such as:
+1. News Bots
+2. Celebrity Bots
+3. Religious Bots
+4. Counselling Bots
+5. Quiz and Games
+6. Notification and Alerts services in various sectors like Manufacturing, Hospitals, service corporates, etc.
+7. Games, etc.
+
+
 
 
 ------------------------
