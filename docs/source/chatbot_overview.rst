@@ -12,7 +12,7 @@ Chatbot Flow
 ~~~~~~~~~~~~~~~~~~~~~~~
 .. image:: ../images/create_bot_images/Chatbot_Flow.png
    :alt: Deployment Structure
-   :width: 500
+   :width: 600
    :height: 500
    :align: center
 
