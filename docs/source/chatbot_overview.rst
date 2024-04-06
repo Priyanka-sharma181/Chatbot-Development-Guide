@@ -10,11 +10,16 @@ A typical chatbot solution comprises the following components:
 
 Chatbot Flow
 ~~~~~~~~~~~~~~~~~~~~~~~
+A typical Conversational AI bot flow looks like as follows:
+
 .. image:: ../images/create_bot_images/Chatbot_Flow.png
    :alt: Deployment Structure
    :width: 600
    :height: 500
    :align: center
+
+When a user types a text into the Chat interface, it goes to the Chatbot Backend where it extracts the Intent and Entities from the text with the help of NLP services.
+Based on extracted intent, the appropriate business logic will be executed. E.g. in a typical customer service bot, a user may ask "Can you provide me the status of my loan application ID 12345". In this example, the user intent is "Get Application Status", entity is "Application ID: 12345". Hence business logic related to retrieving application status will get executed. Once retrieved, the NLP service again is required to generate response in natural language.
 
 Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
