@@ -66,10 +66,10 @@ This documentation will guide you with chatbot development basics and will teach
       :caption: Bot Development Basics
       :hidden:
 
-      architecture.rst
+      chatbot_overview.rst
+      hello_world.rst
       start_bot.rst
       config_settings.rst
-      start.rst
    
    .. toctree::
       :caption: Advanced Bot Development
