@@ -1,14 +1,16 @@
-Chatbot Architecture
+Chatbot Overview
 =====
-This document guides you through the development of a chatbot solution that can be published on the Swiftchat Platform. A typical chatbot solution comprises the following components:
+A typical chatbot solution comprises the following components:
 
-- **Chat Interface:** Swiftchat
-- **Chatbot Backend:** Responsible for managing user interactions within the Swiftchat Platform
-- **AI Query Engine:** Processes user queries using natural language processing techniques
+- **Chat Interface:** From where the end users can interact.
+- **Chatbot Backend:** Responsible for handling user inputs received from the Chat interface.
+- **NLP Services:** Processes user queries using natural language processing techniques.
 - **Database:** Stores user data, manages knowledge, and maintains chat history and logs
 
-Development Architecture
+Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
+A typical Chatbot architecture can be visualized on AWS as follows:
+
 .. image:: ../images/deployement_images/image.png
    :alt: Deployment Structure
    :width: 500
