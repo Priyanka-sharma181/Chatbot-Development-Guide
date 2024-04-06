@@ -10,7 +10,7 @@ A typical chatbot solution comprises the following components:
 
 Chatbot Flow
 ~~~~~~~~~~~~~~~~~~~~~~~
-.. image:: ../images/chat_bot_images/Chatbot_Flow.png
+.. image:: ../images/create_bot_images/Chatbot_Flow.png
    :alt: Deployment Structure
    :width: 500
    :height: 500
