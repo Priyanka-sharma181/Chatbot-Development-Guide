@@ -2,9 +2,9 @@ Chatbot Overview
 =====
 A typical chatbot solution comprises the following components:
 
-- **Chat Interface:** From where the end users can interact.
-- **Chatbot Backend:** Responsible for handling user inputs received from the Chat interface.
-- **NLP Services:** Processes user queries using natural language processing techniques.
+- **Chat Interface:** From where the end users can interact. There are plenty of popular interfaces available such as WhatsApp, Telegram, Line, etc. Swiftchat is one of them but it's novel for hosting bots.
+- **Chatbot Backend:** Responsible for handling user inputs received from the Chat interface and responding back accordingly.
+- **NLP Services:** Utlised for user's intent classification and response generation. It processes user queries using natural language processing techniques when the user communicates in natural language. 
 - **Database:** Stores user data, manages knowledge, and maintains chat history and logs
 
 Architecture
