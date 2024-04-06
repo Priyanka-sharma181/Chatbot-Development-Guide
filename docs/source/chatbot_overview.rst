@@ -45,23 +45,21 @@ This backend suffices for Rule-Based bots where natural language processing is u
 
 NLP Backend Services
 ---------------------
-This module handles natural language queries using generative AI technologies such as OpenAI or open-source LLMs. Its typical services include:
+This module handles natural language queries using generative AI technologies such as `OpenAI <https://openai.com/>` or `open-source LLMs <https://huggingface.co/models>`. Its typical services include:
 
 - Ingesting and managing knowledge within the Vector database
-- Generating responses to queries posed in natural language using LLM services like OpenAI
+- Generating responses to queries posed in natural language using LLM services like `OpenAI <https://openai.com/>`.
 - Caching results to optimize LLM service costs
 
-Vector Database
+Database
 ---------------
+The database is used to store bot knowledge data, user data, chat history, analytics, etc. Hence for different use cases, different types of databases are utilised. For e.g. to store user data SQL/NOSQL databases such as MySQL or MongoDB can be used. To store bot knowledge data, a vector database is the ideal choice as it stores data in a format that is understandable by Machine Learning Models. In conversational bots, we utilize Vector databases such as ChromaDB, Weaviate, Milvus, Pinecone, etc. to store text embeddings (Vectors) of all textual/multi-media data as Knowledge store, which then will be queried by bot logic for different use cases.
 
-The Vector Database stores text embeddings (vectors) retrievable based on semantic similarity. It is used to store:
-
-- Documents such as PDFs, text files, and strings, serving as knowledge for bot responses
-- Cache results from OpenAI or other LLM services
+For building a Conversational Chatbot we typically build the knowledge store by generating text embeddings and indexing Documents such as PDFs, text files, and strings, serving as knowledge for bot responses. Furthermore, vector db is also used as a cache to store LLM-generated responses in order to optimize latency and LLM usage cost.
 
 Logging, Health Check, Data Analytics
 --------------------------------------
-
+It is also necessary to keep monitoring the chatbot performance in real-time for various aspects such as the quality of bot response for each user query, overall system performance and to analyze user behavior.
 AWS CloudWatch facilitates monitoring infrastructure health, including server logs and resource utilization.
 
 An Alarm service can be set up to receive alerts for unexpected issues. Key metrics to monitor include:
