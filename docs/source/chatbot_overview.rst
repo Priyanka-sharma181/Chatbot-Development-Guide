@@ -1,11 +1,20 @@
 Chatbot Overview
 =====
+Chatbots can be Rule-Based or Conversational. Rule-based chatbots are those that interact with the user in a deterministic way, such as with the help of buttons, form elements, widgets, etc. Whereas conversational bots take user input in natural language, which bot then understands and generates responses with the help of NLP/AI techniques.
 A typical chatbot solution comprises the following components:
 
 - **Chat Interface:** From where the end users can interact. There are plenty of popular interfaces available such as WhatsApp, Telegram, Line, etc. Swiftchat is one of them but it's novel for hosting bots.
-- **Chatbot Backend:** Responsible for handling user inputs received from the Chat interface and responding back accordingly.
+- **Chatbot Backend:** Responsible for handling user inputs received from the Chat interface and responding accordingly.
 - **NLP Services:** Utlised for user's intent classification and response generation. It processes user queries using natural language processing techniques when the user communicates in natural language. 
 - **Database:** Stores user data, manages knowledge, and maintains chat history and logs
+
+Chatbot Flow
+~~~~~~~~~~~~~~~~~~~~~~~
+.. image:: ../images/chat_bot_images/Chatbot_Flow.png
+   :alt: Deployment Structure
+   :width: 500
+   :height: 500
+   :align: center
 
 Architecture
 ~~~~~~~~~~~~~~~~~~~~~~~
