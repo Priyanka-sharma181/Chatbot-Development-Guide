@@ -11,7 +11,7 @@ In this tutorial, you'll create and publish your first bot onto Swiftchat. Follo
 
 Create Swiftchat Business Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-If you've not setup a Swiftchat account yet, please follow the :ref:`instructions here <swiftchat_registration>`. You should also :ref:`obtain your API Key <_obtraining_api_keys>` which will be used to call Swiftchat APIs.
+If you've not setup a Swiftchat account yet, please follow the :ref:`instructions here <swiftchat_registration>`. You should also :ref:`obtain your API Key <obtraining_api_keys>` which will be used to call Swiftchat APIs.
 
 All set up! With the bot created and updated settings, it's time to start the bot. Follow these basic steps:
 
