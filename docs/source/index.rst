@@ -1,4 +1,8 @@
-SwiftChat Platform 
+Get Started
+====================
+This documentation will guide you to develop and publish your bots on Swiftchat, an indigenous and versatile platform to connect to a wide variety of audiences through chatbots. In this documentation guide, we'll provide you with the starter kit, code samples, and best practices, which will help you to develop new experiences for your audience.
+
+SwiftChat 
 ====================
 SwiftChat, developed by ConveGenius Digital India Pvt Services Ltd, is a versatile platform for building, using, and discovering chatbots. Leveraging conversational interfaces, enables businesses, governments, and other entities to engage with consumers effectively. With its user and developer-focused components, SwiftChat offers a comprehensive solution for creating and deploying chatbots. The recent v2 release enhances discoverability, expands bot capabilities, and provides APIs for businesses, positioning SwiftChat as a pivotal tool for fostering customer-centric interactions and connection-building.
 
