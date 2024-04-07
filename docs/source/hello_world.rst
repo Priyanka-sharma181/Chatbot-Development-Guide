@@ -16,11 +16,11 @@ If you've not setup a Swiftchat account yet, please follow the :ref:`instruction
 2. Setup a Bot in Swiftchat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 To publish our bot on Swiftchat, we need to setup a Bot on Swiftchat Dashboard. Please follow the :ref:`instructions <swiftchat_bot_setup>` to set up one.
-All set up! With the bot created and updated settings, it's time to start the bot. Follow these basic steps:
+
 
 3. Clone the repo "Chatbot Starter Kit"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-You may any framework to build your backend. To quick start, we've created a `Chatbot Starter Kit <https://github.com/MadgicalSwift/chatbot-starter-kit>`. It has a sample code structure of a typical Bot application, which will help you to kick start without wasting time on setting up boilerplate code. Please follow the README given in repo to setup and run the code.
+You may any framework to build your backend. To quick start, we've created a `Chatbot Starter Kit <https://github.com/MadgicalSwift/chatbot-starter-kit>`_. It has a sample code structure of a typical Bot application, which will help you to kick start without wasting time on setting up boilerplate code. Please follow the README given in repo to setup and run the code.
 
 **Make Changes to the Starter Kit Code as per your Bot Configurations** 
 
