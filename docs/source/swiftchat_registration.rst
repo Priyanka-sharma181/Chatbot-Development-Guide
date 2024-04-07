@@ -1,3 +1,5 @@
+.. _swiftchat_registration:
+
 Registration on Swiftchat
 ------------
 
