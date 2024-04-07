@@ -1,6 +1,7 @@
+.. _obtraining_api_keys:
 Obtaining API keys
 ------------
-In order to get the API key and to access the other features of swiftchat platform, you need to have a merchant account. 
+To get the API key and to access the other features of swiftchat platform, you need to have a merchant account. 
 
 .. tip:: 
 
