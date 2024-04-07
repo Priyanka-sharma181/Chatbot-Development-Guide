@@ -64,15 +64,15 @@ This documentation will guide you with chatbot development basics and will teach
 
       swiftchat_registration.rst
       get_api_key.rst
-      starter_kit.rst
+      start_bot.rst
    
    .. toctree::
       :caption: Bot Development Basics
       :hidden:
 
       chatbot_overview.rst
+      starter_kit.rst
       hello_world.rst
-      start_bot.rst
       config_settings.rst
    
    .. toctree::
