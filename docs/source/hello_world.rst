@@ -15,43 +15,36 @@ If you've not setup a Swiftchat account yet, please follow the :ref:`instruction
 
 2. Setup a Bot in Swiftchat
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-In order to publish our bot on Swiftchat, we need to setup a Bot on Swiftchat Dashboard. Please follow the :ref:`instructions <swiftchat_bot_setup>` to setup one.
+To publish our bot on Swiftchat, we need to setup a Bot on Swiftchat Dashboard. Please follow the :ref:`instructions <swiftchat_bot_setup>` to set up one.
 All set up! With the bot created and updated settings, it's time to start the bot. Follow these basic steps:
 
-1. Navigate to cloned starter-kit and open the terminal
-2. Use these commands one by one:
+3. Clone the repo "Chatbot Starter Kit"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You may any framework to build your backend. To quick start, we've created a `Chatbot Starter Kit <https://github.com/MadgicalSwift/chatbot-starter-kit>`. It has a sample code structure of a typical Bot application, which will help you to kick start without wasting time on setting up boilerplate code. Please follow the README given in repo to setup and run the code.
+
+**Make Changes to the Starter Kit Code as per your Bot Configurations** 
+
+1. Open the cloned respository in your preferred code editor
+2. Navigate to **.env.text** file and change it's name to **.env**. Update the value of .env file with your actual data.
    
-   - ``cd chatbot-nestjs-boilerplate``
-   - ``npm run start:dev``
-  
-3. Open the bot interface and send the message **hi**. The bot should respond with a welcome message.
+   .. image:: ../images/deployement_images/env_file.png
+      :alt: Deployment Structure
+      :width: 2000
+      :height: 200
+      :align: left
+         
+3. Now navigate to the **i18n** folder and then access the **en** and **hn** files. Update the welcome message as required and save the changes. Here we will add "Hello World" to demonstrate
    
-.. image:: ../images/other_images/first_msg.png
-    :alt: Deployment Structure
-    :width: 2000
-    :height: 100
-    :align: center
+   .. image:: ../images/create_bot_images/i8-en.png
+      :alt: Deployment Structure
+      :width: 2000
+      :height: 200
+      :align: left
 
-Work Flow
-^^^^^^^^^^^^^^^^^^^^^^^
-   
-.. image:: ../images/other_images/process_msg.png
-    :alt: Deployment Structure
-    :width: 3000
-    :height: 200
-    :align: left    
+4. Host the bot locally using ngrok
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+You can either publish this application on various cloud services like Heroku, Firebase, AWS, etc. or you can try NGRok which will create a reverse proxy for your locally hosted bot. Follow the instructions from the NGRok official website to generate a URL for your locally running bot application. Once the URL is generated, set this URL as a webhook URL on the Swiftchat dashboard of your bot.
 
-1. The **processMessage** method is responsible for handling incoming messages received by the chatbot. It takes the message body as input and extracts important information such as the sender's ID (`from`) and the text of the message (`text`). 
-
-2. First, it retrieves the bot's ID from the environment variables. Then, it fetches user data based on the sender's ID using the **findUserByMobileNumber** method provided by the **UserService**. 
-
-3. Next, it uses an intent classifier to determine the intent and extract entities from the message text. The intent represents the purpose or goal of the message, while entities are specific pieces of information mentioned in the message.
-
-4. If the user's language is either English or Hindi, the user data is updated and saved using the **saveUser** method.
-
-5. Finally, if the intent is a greeting, the **sendWelcomeMessage** method is called to send a welcome message to the sender, considering their preferred language.
-
-
-Overall, this method orchestrates the processing of incoming messages, including extracting information, determining intent, updating user data, and responding accordingly.
+Your bot is now ready, you can test it by visiting the bot URL and saying "hi". It'll print a welcome message as configured in the Chatbot Starter Kit. Now it's up to you, how you want to customize it.
 
 
