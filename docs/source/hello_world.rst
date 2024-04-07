@@ -3,12 +3,15 @@ Hello World!
 
 In this tutorial, you'll create and publish your first bot onto Swiftchat. Following are the high level steps:
 
-1. Create Swiftchat business account - Please follow instructuctions given here.
+1. Create Swiftchat business account
 2. Setup a Bot in Swift chat - Please follo instructions given here.
 3. Clone the repo "Chatbot Starter Kit"
 4. Host the bot locally using ngrok
 5. Add webhook url on Bot dashboard
 
+Create Swiftchat Business Account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+If you've not setup a Swiftchat account yet, please follow the :ref:`instructions here <swiftchat_registration>`. You should also :ref:`obtain your API Key <_obtraining_api_keys>` which will be used to call Swiftchat APIs.
 
 All set up! With the bot created and updated settings, it's time to start the bot. Follow these basic steps:
 
