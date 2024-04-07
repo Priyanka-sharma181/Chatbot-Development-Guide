@@ -73,7 +73,6 @@ This documentation will guide you with chatbot development basics and will teach
       chatbot_overview.rst
       starter_kit.rst
       hello_world.rst
-      config_settings.rst
    
    .. toctree::
       :caption: Advanced Bot Development
