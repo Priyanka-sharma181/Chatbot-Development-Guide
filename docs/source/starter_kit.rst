@@ -1,9 +1,5 @@
-Installation of necessary tools
-====================
-This document will guide you for the installation process of necessary tools and SDKs. Also, here we will discuss about the chatbot starter kit. 
-
 Chatbot Starter Kit 🚀
-------------
+=====================
 
 The Chatbot Starter Kit is a carefully designed collection of resources that forms the foundation for creating impressive chatbot applications On `SwiftChat platform <https://convegenius.com/>`_. It includes essential tools, templates, and best practices, making it an excellent starting point for your chatbot development journey.
 

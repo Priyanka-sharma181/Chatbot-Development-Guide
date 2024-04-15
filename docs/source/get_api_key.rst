@@ -1,6 +1,7 @@
+.. _obtraining_api_keys:
 Obtaining API keys
 ------------
-In order to get the API key and to access the other features of swiftchat platform, you need to have a merchant account. 
+To get the API key and to access the other features of swiftchat platform, you need to have a merchant account. 
 
 .. tip:: 
 
@@ -11,7 +12,7 @@ In order to get the API key and to access the other features of swiftchat platfo
 
 **Follow these steps to get API key:**
 
-- Open the `SwiftChat Merchant Dashboar <https://dashboard.swiftchat.ai/>`_
+- Open the `SwiftChat Merchant Dashboard <https://dashboard.swiftchat.ai/>`_
 - Login to dashboard with your merchant credentials
 - Click on profile settings tab and open **Manage Account**
   

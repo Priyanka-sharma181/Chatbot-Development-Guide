@@ -1,3 +1,4 @@
+.. _swiftchat_bot_setup:
 Setting Up a New Bot
 ====================
 To begin utilizing the starter kit, you'll need to obtain a bot ID. You can create a chatbot either manually or via API.
