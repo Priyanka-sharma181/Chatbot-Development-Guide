@@ -12,7 +12,7 @@ Frequently Asked Questions (FAQs)
      - Terraform scripts for Deployments
      - Knowledge Content
 
-1. How should we scale our infrastructure?
+2. How should we scale our infrastructure?
 ---------------------
 
    - Evaluate scaling strategies based on demand and growth patterns.
@@ -26,7 +26,7 @@ Frequently Asked Questions (FAQs)
      - Network Load Balancer (NLB) for even traffic distribution.
      - Application Load Balancer (ALB) for advanced routing, SSL termination, and content-based routing.
 
-1. How should we scale Vector Database Infrastructure?
+4. How should we scale Vector Database Infrastructure?
 ---------------------
 
    - Assess growth patterns and scaling needs.
