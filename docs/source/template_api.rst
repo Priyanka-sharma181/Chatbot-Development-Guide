@@ -16,6 +16,7 @@ Getting Started
 ---------------
 
 Installation and Setup
+~~~~~~~~~~~~~~~~~~~~~
 
 Let's set up everything we need before diving into development:
 
@@ -24,14 +25,16 @@ Let's set up everything we need before diving into development:
 2. **Install Dependencies:** `npm install`
 
 3. **Update Environment Variables:** Rename the demo `.env.text` file to `.env` and fill in your configuration details such as API URLs, keys, and database credentials.
-API_URL = API_URL
-BOT_ID = BOT_ID
-API_KEY = API_KEY
-DATA_BASE=DATA_BASE
-DB_HOST=DB_HOST
-DB_USER=DB_USER
-DB_PASSWORD=DB_PASSWORD
 
+    ```
+    API_URL = API_URL
+    BOT_ID = BOT_ID
+    API_KEY = API_KEY
+    DATA_BASE = DATA_BASE
+    DB_HOST = DB_HOST
+    DB_USER = DB_USER
+    DB_PASSWORD = DB_PASSWORD
+    ```
 
 Understanding the Flow
 -----------------------
