@@ -107,8 +107,8 @@ This documentation will guide you with chatbot development basics and will teach
       :hidden:
 
       resources.rst
-   
- .. toctree::
+
+   .. toctree::
       :caption: Templates
       :hidden:
 
