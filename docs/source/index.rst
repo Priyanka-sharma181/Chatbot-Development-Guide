@@ -110,9 +110,9 @@ This documentation will guide you with chatbot development basics and will teach
 
    .. toctree::
       :caption: Templates
-      :hidden:
 
       template_api.rst
+
 
   .. toctree::
       :caption: Conclusion
