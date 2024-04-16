@@ -1,4 +1,5 @@
-# News Chatbot Template Developer Guide
+Chatbot Template Developer Guide
+==============
 
 Welcome to our developer guide for crafting your custom news chatbot using our intuitive template! This document will lead you through the straightforward process of tailoring the template to your specifications and constructing your unique news chatbot. Let's dive in and begin building!
 
