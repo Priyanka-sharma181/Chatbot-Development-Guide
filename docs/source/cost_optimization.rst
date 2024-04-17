@@ -30,6 +30,37 @@ In this case, since the questions are asking for the same information but rephra
 Profanity check
 ----------------------
 
+The profanity check feature is designed to filter out inappropriate or unaccepted language or words used by users when interacting with the bot.
+
+- The system utilizes a list of predefined profane or inappropriate words and phrases.
+- When a user submits a question or message, the system scans the text for the presence of any profane words or phrases.
+- If any profanity is detected, the system responds with a regret message.
+
+Sentence Length
+^^^^^^^^^^^^^^^^^^^^^
+Sentence length analysis is performed to determine the validity of user questions based on the number of words in the input. It helps filter out nonsensical or incomplete queries that may not provide enough context for the bot to generate a meaningful response.
+
+- When a user submits a question, the system calculates the number of words in the input text.
+- If the number of words exceeds a predefined threshold (e.g., 3 words), the system considers the question valid and proceeds with further processing.
+- If the number of words is below the threshold, the system responds with a regret message indicating that the input is not a valid question.
+
+Pool of Blacklist Words
+^^^^^^^^^^^^^^^^^^^^^^^^^
+The pool of blacklist words consists of terms or topics that are deemed irrelevant to the bot's domain or purpose. These words typically include names of songs, movies, celebrities, or other topics that are not related to the bot's area of expertise.
+
+For example: the blacklist pool could be like this
+
+['song', 'music', 'track', 'album', 'artist','djsong','video', 'clip', 'movie', 'film']
+
+- The system maintains a list or array of blacklist words, which are predetermined based on the bot's domain and purpose.
+- When a user submits a question, the system checks the input text for the presence of any blacklist words.
+- If any blacklist words are detected, the system responds with a message indicating that the topic is not relevant to the bot's domain.
+
+Benefits
+^^^^^^^^
+- The pool of blacklist words helps ensure that the bot stays focused on its intended purpose and provides relevant responses to user queries.
+- Sentence length analysis ensures that the bot focuses on processing meaningful and complete questions, improving the quality of interactions with users.
+
 Similarity cutoff
 --------------------
 
