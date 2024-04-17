@@ -64,5 +64,17 @@ Benefits
 Similarity cutoff
 --------------------
 
+The similarity cutoff feature filters out questions that meet basic criteria but aren't relevant to the bot's purpose. Instead of querying directly to OpenAI services, it checks if the question aligns with the bot's domain before proceeding.
+
+- If the user's question passes the minimum word count and blacklist word checks, the system compares it with a set of predefined topics or keywords related to the bot's domain to check if the question is relevant to or not. For instance, if your bot is about religion and spirituality, questions about celebrities like "Who is Amitabh?" might not be relevant.
+This comparison can be done using techniques such as keyword matching, natural language processing, or similarity measures like cosine similarity.
+- The system calculates a similarity score between the user's question and each predefined topic or keyword related to the bot's domain.
+- A predefined similarity threshold is set to determine if the user's question is sufficiently related to the bot's domain.
+- If the similarity score exceeds the threshold for any topic or keyword, the question is considered relevant and further processing may proceed. The system may then proceed to query external services like OpenAI to generate a response.
+- If the similarity score falls below the threshold for all topics or keywords, the question is deemed unrelated, and further processing is halted. The system skips querying external services and directly responds with a regret message, informing the user that the question is unrelated to the bot's domain.
+
+
 Rate limiting
 ----------------
+
+Rate limiting restricts users to a certain number of questions for free. Once this limit is reached, users must pay for continued use of the service. This measure helps manage server load, prevent abuse, and potentially generate revenue from users who exceed the free limit.
