@@ -120,7 +120,7 @@ This documentation will guide you with chatbot development basics and will teach
       conclusion.rst
 
   .. toctree::
-      :caption: OPenAI
+      :caption: Cost Optimization
       :hidden:
 
       cost_optimization.rst
