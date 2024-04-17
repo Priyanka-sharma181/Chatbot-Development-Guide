@@ -13,17 +13,17 @@ Key features of the news bot template include:
 - Latest news presented in card format, providing users with highlights or summaries, with the option to read more if desired.
 - Bilingual language support in Hindi and English, ensuring accessibility to a wide range of users.
 
-Welcome Message with category buttons: 
+**Welcome Message with category buttons:** 
 
 .. image:: ../images/template_images/news_bot_welcome.png
         :alt: Deployment Structure
-        :width: 3000
+        :width: 2500
         :height: 300
         :align: left  
 
 --------------------------------
 
-News in the card format with sub-category option:
+**News in the card format with sub-category option:**
 
 .. image:: ../images/template_images/news_category.png
         :alt: Deployment Structure
@@ -33,7 +33,7 @@ News in the card format with sub-category option:
 
 --------------------------------
 
-Sub-category news with options to "Go back to main menu" and "Browse other categories": 
+**Sub-category news with options to "Go back to main menu" and "Browse other categories":** 
 
 .. image:: ../images/template_images/news_backMenu.png
         :alt: Deployment Structure
