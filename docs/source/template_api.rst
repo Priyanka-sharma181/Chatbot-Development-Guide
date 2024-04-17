@@ -86,8 +86,6 @@ With the necessary changes implemented, dependencies installed, and webhook URL 
 Running the App
 ---------------
 
-### Development
-
 ```bash
 $ npm run start
 

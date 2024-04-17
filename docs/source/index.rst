@@ -116,13 +116,6 @@ This documentation will guide you with chatbot development basics and will teach
 
 
   .. toctree::
-      :caption: Template
-      :hidden:
-
-      template_api.rst
-
-
-  .. toctree::
       :caption: Conclusion
       :hidden:
 
