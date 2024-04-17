@@ -68,6 +68,26 @@ Key features of the Celebrity bot template include:
 --------------------------------
 
 
-
 Religious textbook template
 ===============================
+
+The Religious Textbook Template is crafted to provide information about specific religious texts such as the Bhagavad Gita and the Quran. It features an engaging interface to explore and deepen understanding of your chosen religious text.
+
+
+The main features comprise:
+
+- A welcoming message accompanied by a set of pre-defined questions in button format to initiate interaction.
+- The template allows users to inquire either from the pre-defined questions or input new queries.
+- Convenient navigation back to pre-defined questions with the "Go Back" option.
+- Language support in both Hindi and English ensures readability for a wide range of users.
+- Users can switch languages at any point for added convenience.
+
+**Welcome message with pre-defined questions:**
+
+.. image:: ../images/template_images/religious_welcome.png
+        :alt: Deployment Structure
+        :width: 3000
+        :height: 500
+        :align: left  
+
+--------------------------------
