@@ -94,25 +94,7 @@ This documentation will guide you with chatbot development basics and will teach
 
       api_reference.rst
       analytics.rst
-
-  .. toctree::
-      :caption: FAQs
-      :hidden:
-
-      api.rst
    
-  .. toctree::
-      :caption: resources
-      :hidden:
-
-      resources.rst
-
-  .. toctree::
-      :caption: How to Optimise Open AI Cost?
-      :hidden:
-
-      cost_optimization.rst
-
   .. toctree::
       :caption: Template
       :hidden:
@@ -120,7 +102,20 @@ This documentation will guide you with chatbot development basics and will teach
       template_api.rst
 
   .. toctree::
+      :caption: resources
+      :hidden:
+
+      resources.rst
+
+  .. toctree::
+      :caption: FAQs
+      :hidden:
+
+      api.rst
+
+  .. toctree::
       :caption: Conclusion
       :hidden:
 
       conclusion.rst
+
