@@ -1,7 +1,8 @@
-This document will help to Optimise the cost of open AI. Here we will see how various points such as caching, similarly cut-off, etc helps us in reducing the cost.
+OpenAI provides powerful natural language processing capabilities through its API services. However, the usage of these services can result in significant costs, especially in scenarios with high query volumes. To optimize costs without compromising functionality, the following strategies can be employed based on the features of the ChatBot system.
 
 Caching
 ==============
+In the caching mechanism, the system maintains a vector database to store pairs of questions and their corresponding answers. Each question is associated with its relevant answer.
 
 Profanity check
 =================
