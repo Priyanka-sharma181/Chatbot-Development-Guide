@@ -91,3 +91,8 @@ The main features comprise:
         :align: left  
 
 --------------------------------
+
+
+Explore further details about these templates and find customization steps in our `repositories <resources.html>_
+
+
