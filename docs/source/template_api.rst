@@ -47,5 +47,27 @@ Key features of the news bot template include:
 Celebrity bot template
 =========================
 
+The Celebrity Template offers a dynamic source for engaging with audiences on the latest updates, news, and insights surrounding the world of celebrities. With its simple interface and customizable features, this template empowers users to curate personalized experiences that resonate with their audience.
+
+Key features of the Celebrity bot template include:
+
+- Introduce interactive and customizable buttons providing information about celebrities. These buttons include options like "About the Celebrity," "Social Media Contacts," and "Ask a Question," enhancing engagement.
+- Ensure accessibility to a broader user base by offering bilingual language support in both Hindi and English.
+- Enable easy navigation with "Go Back to Main Menu" options, facilitating seamless interaction and quick access to the main menu.
+- Empower users to inquire more about their favorite celebrities through the "Ask a Question" feature, fostering deeper engagement.
+- Include a "Report a Problem" option, allowing users to flag issues and concerns to be addressed by the celebrities.
+
+**Welcome message with menu buttons:**
+
+.. image:: ../images/template_images/celebrity_welcome.png
+        :alt: Deployment Structure
+        :width: 3000
+        :height: 500
+        :align: left  
+
+--------------------------------
+
+
+
 Religious textbook template
 ===============================
