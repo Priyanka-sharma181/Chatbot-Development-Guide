@@ -7,6 +7,17 @@ Caching
 --------------------
 In the caching mechanism, the system maintains a vector database to store pairs of questions and their corresponding answers. Each question is associated with its relevant answer.
 
+- When a user asks a question, the system retrieves the vector representation of the question from the database.
+- It then calculates the cosine similarity between the user's question vector and the question vectors stored in the database.
+- Cosine similarity is a measure of similarity between two non-zero vectors in an inner product space. It measures the cosine of the angle between the vectors and ranges from -1 to 1. A value of 1 indicates perfect similarity, while -1 indicates perfect dissimilarity.
+
+Let's say for example we have a question stored in our database with it's answer, and the user asks a similar question
+
+```
+Question in vector database: "What is the capital city of France?"
+Question asked by user: "Which city is the capital of France?"
+```
+
 Profanity check
 ----------------------
 
