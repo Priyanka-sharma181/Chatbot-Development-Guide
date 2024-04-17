@@ -93,6 +93,6 @@ The main features comprise:
 --------------------------------
 
 
-Explore further details about these templates and find customization steps in our `repositories <resources.html>_
+Explore further details about these templates and find customization steps in our `repositories <resources.html>`_
 
 
