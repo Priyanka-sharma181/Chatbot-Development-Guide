@@ -9,3 +9,6 @@ Repository
 -----------
 
 1. `Starter Kit Repository <https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate/tree/main/src>`_
+2. `News bot template <https://github.com/madgicaltechdom/news-chatbot-template>`_
+3. `Religious bot template <https://github.com/MadgicalSwift/religions-template>`_
+4. `Celebrity bot template <https://github.com/madgicaltechdom/celebrity-bot-template>`_
