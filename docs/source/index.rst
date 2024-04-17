@@ -88,13 +88,6 @@ This documentation will guide you with chatbot development basics and will teach
       deploy.rst
       version_control.rst
    
-   .. toctree::
-      :caption: api reference
-      :hidden:
-
-      api_reference.rst
-      analytics.rst
-   
   .. toctree::
       :caption: Template
       :hidden:
@@ -107,6 +100,13 @@ This documentation will guide you with chatbot development basics and will teach
 
       resources.rst
 
+   .. toctree::
+      :caption: api reference
+      :hidden:
+
+      api_reference.rst
+      analytics.rst
+      
   .. toctree::
       :caption: FAQs
       :hidden:
