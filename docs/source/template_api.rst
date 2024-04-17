@@ -18,7 +18,7 @@ Welcome Message with category buttons:
 .. image:: ../images/template_images/news_bot_welcome.png
         :alt: Deployment Structure
         :width: 3000
-        :height: 500
+        :height: 300
         :align: left  
 
 --------------------------------
