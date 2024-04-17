@@ -13,16 +13,19 @@ In the caching mechanism, the system maintains a vector database to store pairs 
 
 Let's say for example we have a question stored in our database with it's answer, and the user asks a similar question
 
-```
-Question in vector database: "What is the capital city of France?"
-Question asked by user: "Which city is the capital of France?"
-```
 
 Using the cosine similarity formula, we compute the cosine similarity between Question 1 and Question 2.
 
 After computing the cosine similarity value, we compare it to a predefined threshold. If the cosine similarity exceeds the threshold, we consider the questions to be sufficiently similar.
 
 In this case, since the questions are asking for the same information but rephrased differently, the cosine similarity value is likely to be high, indicating a strong similarity between the questions. As a result, the system would recognize that both questions are essentially the same and retrieve the appropriate answer from the database.
+
+   .. code-block:: json
+
+        Question in vector database: "What is the capital city of France?"
+        Question asked by user: "Which city is the capital of France?"
+        
+-------------------
 
 
 Profanity check
