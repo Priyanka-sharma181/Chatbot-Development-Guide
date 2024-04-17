@@ -16,8 +16,8 @@ Key features of the news bot template include:
   
 .. image:: ../images/template_images/news_bot_welcome.png
         :alt: Deployment Structure
-        :width: 1000
-        :height: 100
+        :width: 3000
+        :height: 500
         :align: left  
 
 
