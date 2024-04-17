@@ -33,6 +33,15 @@ News in the card format with sub-category option:
 
 --------------------------------
 
+Sub-category news with options to "Go back to main menu" and "Browse other categories": 
+
+.. image:: ../images/template_images/news_backMenu.png
+        :alt: Deployment Structure
+        :width: 3000
+        :height: 500
+        :align: left  
+
+--------------------------------
 
 
 Celebrity bot template
