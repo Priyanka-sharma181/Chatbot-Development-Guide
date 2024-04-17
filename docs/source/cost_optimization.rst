@@ -13,7 +13,7 @@ In the caching mechanism, the system maintains a vector database to store pairs 
 
 Let's say for example we have a question stored in our database with it's answer, and the user asks a similar question
 
-   .. code-block:: json
+.. code-block:: json
 
     Question in vector database: "What is the capital city of France?"
     Question asked by user: "Which city is the capital of France?"
