@@ -3,8 +3,6 @@ Chatbot Do’s and Don’ts
 
 This guide offers essential insights for integrating chatbots into your business strategy, emphasizing common pitfalls and best practices. It provides valuable tips to create a robust chatbot strategy, ensuring optimal utilization for your online business goals.
 
----
-
 Do's
 ------------
 
@@ -64,6 +62,6 @@ Continuously Improve and Iterate
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Monitor user feedback and analytics to identify areas for improvement and optimization. Iterate on your chatbot design based on user insights and evolving business requirements.
 
----
 
+------------------------------
 This concludes the Chatbot Design Best Practices Developer Guide. We hope you find these principles and strategies valuable as you embark on your chatbot development journey!
