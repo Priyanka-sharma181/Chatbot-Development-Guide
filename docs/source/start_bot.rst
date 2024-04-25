@@ -15,8 +15,9 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 1. Open your terminal or command prompt. If you don't have curl installed, you can install it using npm by running the ``npm install -g curl`` command in your terminal
 2. Create a new **POST** request using curl
 3. Use the following API endpoint:``https://v1-api.swiftchat.ai/api/bots`` 
-4. Include your API key in the header that you obtained during `Obtaining API Key <get_api_key.html>`_. and add the header to your curl request
-5. In the body, include details such as bot-name, mobile-number, and bot-category::
+4. Include your API key in the header that you obtained during `Obtaining API Key <get_api_key.html>`_ 
+5. In the body, include details such as bot-name, mobile-number, and bot-category
+6. Add the header and the body to your curl request::
  
       curl --location 'https://v1-api.swiftchat.ai/api/bots' \
        --header "Content-Type: application/json" \
@@ -29,9 +30,9 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
           }
       }'
 
-6. On successfully creating bot you will receive a message indicating **created**.
+7. On successfully creating bot you will receive a message indicating **created**.
 
-7. After creating bot, use the `**varify API** <https://documenter.getpostman.com/view/20587790/UyrGCuhH#a5fa0876-d1b1-48de-a475-dad2ff467071>`_  to generate the bot ID.
+8. After creating bot, use the `**varify API** <https://documenter.getpostman.com/view/20587790/UyrGCuhH#a5fa0876-d1b1-48de-a475-dad2ff467071>`_  to generate the bot ID.
 
 
 Creating a Bot Using the SwiftChat Dashboard
