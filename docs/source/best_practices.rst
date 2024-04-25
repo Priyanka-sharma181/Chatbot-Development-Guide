@@ -23,6 +23,13 @@ Define Clear Goals
 
 Set clear objectives for your chatbot project, aligning them with specific business goals and user needs. Clearly define the purpose and scope of the chatbot to guide development efforts effectively.
 
+.. image:: ../images/best_practice_images/chatbot_goal.jpeg
+   :alt: Deployment Structure
+   :width: 1300
+   :height: 500
+   :align: center
+
+
 Introduce and Set Expectations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
