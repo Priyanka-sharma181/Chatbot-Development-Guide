@@ -11,6 +11,13 @@ Understand Your Bots
 
 Before diving into chatbot development, it's crucial to understand the capabilities and limitations of chatbots. Familiarize yourself with the technologies involved and the potential use cases for chatbots in your context.
 
+.. image:: ../images/best_practice_images/chatbot.jpeg
+   :alt: Deployment Structure
+   :width: 1300
+   :height: 500
+   :align: center
+
+
 Define Clear Goals
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
