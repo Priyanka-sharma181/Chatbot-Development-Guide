@@ -18,7 +18,7 @@ Set clear objectives for your chatbot project, aligning them with specific busin
 
 .. image:: ../images/best_practice_images/chatbot_goal.jpeg
    :alt: Deployment Structure
-   :width: 1300
+   :width: 1000
    :height: 700
    :align: center
 
