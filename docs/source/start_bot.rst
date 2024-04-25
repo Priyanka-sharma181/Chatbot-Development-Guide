@@ -16,9 +16,8 @@ You can employ any tool or platform to interact with the SwiftChat APIs. In this
 2. Create a new **POST** request using curl
 3. Add this API ``https://v1-api.swiftchat.ai/api/bots`` in the url section
 4. Include your API key in the request header that you obtained during `Obtaining API Key <get_api_key.html>`_.  You can do this by adding the following header to your curl request:
-5. Now move to the request body, and include details such as bot-name, mobile-number, and bot-category. 
-
-.. code-block:: 
+5. Now move to the request body, and include details such as bot-name, mobile-number, and bot-category.::
+ 
       curl --location 'https://v1-api.swiftchat.ai/api/bots' \
        --header "Content-Type: application/json" \
        --header "Authorization: Bearer YOUR_API_KEY_HERE" \
