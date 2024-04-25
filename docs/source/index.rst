@@ -54,7 +54,6 @@ There are plenty of use cases where you can create your own bots such as:
 What you will learn?
 ====================
 This documentation will guide you with chatbot development basics and will teach you to deploy your first Chatbot onto Swiftchat.
-
 .. only:: not index
 
    .. toctree::
@@ -82,14 +81,14 @@ This documentation will guide you with chatbot development basics and will teach
       media_support.rst
    
    .. toctree::
-      :caption: Bot Deployement
+      :caption: Bot Deployment
       :hidden:
 
       deploy.rst
       version_control.rst
    
    .. toctree::
-      :caption: api reference
+      :caption: API Reference
       :hidden:
 
       api_reference.rst
@@ -102,7 +101,7 @@ This documentation will guide you with chatbot development basics and will teach
       template_api.rst
 
   .. toctree::
-      :caption: resources
+      :caption: Resources
       :hidden:
 
       resources.rst
@@ -114,13 +113,19 @@ This documentation will guide you with chatbot development basics and will teach
       api.rst
 
   .. toctree::
-      :caption: Conclusion
+      :caption: Best Practices
       :hidden:
 
-      conclusion.rst
+      best_practices.rst
 
   .. toctree::
       :caption: Cost Optimization
       :hidden:
 
       cost_optimization.rst
+
+  .. toctree::
+      :caption: Conclusion
+      :hidden:
+
+      conclusion.rst
