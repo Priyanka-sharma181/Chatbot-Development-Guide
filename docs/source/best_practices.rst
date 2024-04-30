@@ -1,10 +1,8 @@
-Chatbot Do’s and Don’ts
+Chatbot best practices
 ========================
 
 This guide offers essential insights for integrating chatbots into your business strategy, emphasizing common pitfalls and best practices. It provides valuable tips to create a robust chatbot strategy, ensuring optimal utilization for your online business goals.
 
-Do's
-------------
 
 Understand Your Bots
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -16,26 +14,11 @@ Define Clear Goals
 
 Set clear objectives for your chatbot project, aligning them with specific business goals and user needs. Clearly define the purpose and scope of the chatbot to guide development efforts effectively.
 
-.. image:: ../images/best_practice_images/chatbot_goal.jpeg
-   :alt: Deployment Structure
-   :width: 1000
-   :height: 700
-   :align: center
-
-
-Introduce and Set Expectations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Ensure that your chatbot introduces itself to users and sets clear expectations regarding its capabilities and limitations. Transparency is key to managing user expectations and fostering trust.
-
 Be Responsive
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Develop your chatbot to provide prompt and relevant responses to user queries and interactions. Responsiveness enhances user engagement and satisfaction with the chatbot experience.
 
-Give Your Chatbot a Personality
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Infuse your chatbot with a distinct personality that aligns with your brand identity and resonates with your target audience. A well-defined personality can enhance user engagement and foster a positive rapport with users.
 
 Use Buttons and Text Effectively
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -47,6 +30,7 @@ Communicate openly with users about the capabilities and limitations of your cha
 
 Break Up Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Present information in bite-sized chunks to improve user comprehension and retention. Break up lengthy responses into smaller segments to enhance readability and engagement.
 
 Prepare for Non-linear Conversations
